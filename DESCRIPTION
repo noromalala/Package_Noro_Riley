@@ -1,0 +1,20 @@
+Package: TsvFormater
+Type: Package
+Title: Formating data
+Version: 0.1.0
+Authors@R: c(
+        person("Noromalala", "Eliette", email = "noromalala@utexas.edu", role = c("aut", "cre"))
+  )
+Maintainer: Derby Riley <rnderbs@utexas.edu>
+Description: this package is desingned to format tsv files in a folder, adjust their content, then export the modified data frames to another folder, and calculating breathing metrics
+Depends: R (>= 3.5),
+Imports: dplyr, magrittr, readr
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.3.1
+Collate: 'function.R' 'TsvFormater-package.R' 'utils-pipe.R'
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+
+

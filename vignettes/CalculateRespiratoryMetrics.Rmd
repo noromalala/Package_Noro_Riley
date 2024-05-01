@@ -1,0 +1,19 @@
+---
+title: "Calculate breathing metric with Package TsvFormater"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Calculate breathing metric with Package TsvFormater}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(TsvFormater)
+```

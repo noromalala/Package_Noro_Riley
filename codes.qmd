@@ -1,0 +1,78 @@
+---
+title: "id"
+format: html
+editor: visual
+---
+
+```{r}
+install.packages("devtools")
+install.packages("roxygen2")
+install.packages("withr")
+library(withr)
+library(devtools)
+library(roxygen2)
+has_devel()
+usethis::use_package("readr")
+usethis::use_package("dplyr")
+usethis::use_pipe()
+usethis::use_package_doc()
+devtools::document()
+devtools::build()
+devtools::load_all()
+devtools::install()
+library(TsvFormater)
+usethis::use_vignette("TsvFormater", title = "Format file in folders with Package TsvFormater")
+usethis::use_vignette("CalculateRespiratoryMetrics", title = "Calculate breathing metric with Package TsvFormater")
+devtools::build_vignettes()
+devtools::build()
+
+```
+
+```         
+```
+
+```         
+```
+
+```{r}
+CalculateRespiratoryMetrics <- function(data, file_path, observer) {
+  
+  # Extract relevant columns for calculation
+  relevant_data <- data[, c(4, 6, 8)]  # Columns containing time in seconds
+  
+  # Calculate metrics
+  total_duration_sec <- max(relevant_data$X2) - min(relevant_data$X1)
+  breaths_per_minute <- nrow(relevant_data) / (total_duration_sec / 60)
+  mean_breath_duration <- mean(relevant_data$X3)
+  RR_intervals <- diff(relevant_data$X1)
+  RRI_variability <- sd(RR_intervals)
+  
+  # Extract the file name
+  file_name <- gsub("\\.txt$", "", basename(file_path))
+  
+  # Return the results as a data frame
+  return(data.frame(
+    Observer = observer,
+    File_Name = file_name,
+    Total_Duration_seconds = total_duration_sec,
+    Breaths_Per_Minute = breaths_per_minute,
+    Mean_Breath_Duration = mean_breath_duration,
+    RRI_Variability = RRI_variability
+  ))
+}
+
+# Define the file path and observer
+file_path <- "https://raw.githubusercontent.com/noromalala/data_tsv/master/Sarah.txt"
+observer <- "Sarah"
+
+# Load respiratory data
+respiratory_data <- read.table(file_path, header = TRUE)
+
+# Call the function to calculate metrics
+respiratory_data <- read.table(file_path, header = TRUE)
+
+metrics <- CalculateRespiratoryMetrics(respiratory_data, file_path, observer)
+# View the calculated metrics
+print(metrics)
+
+```
