@@ -1,0 +1,267 @@
+Filename?,Date,Time,IndividualID,Breaths,Time,RR,Current,ID0,Prox0,Prior1,ID1,Prior5,ID5,Prior15,ID15,PartyCurrent,PartyPrior15,Posture,Location,Video,Observer,Comments,GPS,TravelTime,TravelDistance,Speed,Climb1Dist,Climb1min
+,8/12/2023,12:32:00 PM,"Anna_1,",,,0,"RecGr,","Rollins,","Rollins,Doudna,",,,"Travel,",,,,,,,"0.483948,30.412836",1,"Riley,Aaron,",,,,,0,,0
+,8/13/2023,2:39:00 PM,"Anna_1,",,,0,"Feed,",,,,,"Travel,",,"Travel,",,,,,"0.515550,30.401710",0,"Aaron,",Feed  climbed leaves ,,,,0,,0
+,8/13/2023,3:09:04 PM,"Anna_1,",,,0,"Rest,",,"Doudna,","Rest,",,"Feed,",,,,,,,"0.514175,30.401697",1,"Aaron,",,,,,0,,0
+Bach_7-20-23_1248,7/20/2023,12:49:49 PM,"Bach,",,,0,"Rest.Relax,",,"Hutcherson,YoYo,Baez_2,Buckner,Camilla,RichBergl,Wes,Nyumbani_2,",,,"Rest,",,,,,,,"0.492697,30.411915",1,"Riley,",,,,,0,,0
+Bach_7-20-23_1258,7/20/2023,12:58:22 PM,"Bach,",,,0,,,"Nyumbani_2,Wes,Buckner,RichBergl,Justine_2,Hutcherson,YoYo,Camilla,Baez_2,","Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,",,,,"LyingBack,","0.492733,30.411960",1,"Riley,",,,,,0,,0
+BobiWine_7-17-23_1356,7/17/2023,1:56:31 PM,"BobiWine,",,,0,"Rest.Relax,",,"Cannonball,Khutulun_0,Khutulun_infant,","Rest.Relax,",,"Rest.Relax,",,"Rest,",,,,"LyingBack,","0.481325,30.436277",1,"Riley,Aaron,",,,,,0,,0
+BobiWine_7-17-23_1403,7/17/2023,2:03:22 PM,"BobiWine,",,,0,"Rest.Relax,",,"Cannonball,Khutulun_0,Khutulun_infant,","Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,",,,,"LyingSide,","0.481362,30.436201",0,"Riley,Aaron,",,,,,0,,0
+,8/11/2023,10:03:06 AM,"BobiWine,",,,0,"Rest,","Puccini,","Puccini,Bosko,Cannonball,",,,"Rest,",,"AlloGr,","Bosko,",,,"LyingSide,","0.488719,30.430883",1,"Riley,Aaron,",,,,,0,,0
+,7/18/2023,11:55:38 AM,Bosko,18,60,18,Rest,,,,,Rest,,RecGrom,BobiWine,,,"LyingSide,","0.438677,30.405815",0,"Riley,",,,,,0,,0
+,7/18/2023,12:03:47 PM,Bosko,18,60,18,Rest,,,,,Rest,,Rest,,,,"LyingSide,","0.436590,30.388081",0,"Riley,",,,,,0,,0
+,7/18/2023,12:10:39 PM,Bosko,20,60,20,Rest,,,Rest,,Rest,,Rest,,,,"LyingSide,","0.438169,30.406021",0,"Riley,","Calls from chimps in distance, raised head up and directed gaze in that direction ",,,,0,,0
+,7/19/2023,11:58:37 AM,Bosko,10,37,16.2162,Rest,,PucciniPuccini,Rest,Puccini,Rest,"Puccini,Shire",Rest,"Puccini,Shire",,,"LyingSide,","0.438361,30.403858",0,"Riley,",,,,,0,,0
+Bosko_7-17-23_1325,7/17/2023,1:25:26 PM,"Bosko,",20,60,20,"RecGr,","Cannonball,","Cannonball,Puccini,Woodrow,","RecGr,","Puccini,","RecGr,","Puccini,","RecGr,","Puccini,Cannonball,",,,"LyingSide,","0.481975,30.435974",0,"Aaron,",,,,,0,,0
+Bosko_C0252,8/11/2023,8:25:43 AM,"Bosko,",,,0,"Rest,Travel,",,,"Travel,",,"OutOfSight,Travel,",,,,,,,"0.488364,30.430995",1,"Riley,",Mid climbing up tree; piloerect ,,,,0,15,1
+Bowie_7-20-23_1222,7/20/2023,12:22:00 PM,"Bowie,",13,30,26,"Rest.Relax,",,"Buckner,Hutcherson,Wes,YoYo,Justine_2,","Rest,",,,,"OutView,Feed,",,,,"LyingBack,","0.492738,30.411988",1,"Riley,Aaron,",,,,,0,,0
+Bowie_7-20-23_1231,7/20/2023,12:31:21 PM,"Bowie,",12.5,30,25,,,"Buckner,Hutcherson,Wes,YoYo,Justine_2,",,,,,,,,,,"0.492798,30.411952",0,"Riley,Aaron,",,,,,0,,0
+Bowie_7-20-23_1234,7/20/2023,12:34:28 PM,"Bowie,",,,0,,,"Buckner,Hutcherson,Wes,YoYo,Justine_2,",,,,,,,,,,"0.492807,30.411981",0,"Riley,Aaron,",,,,,0,,0
+Buckner_7-13-23_1442,7/13/2023,2:42:16 PM,"Buckner,",14,46,18.2609,"RecGr,","Holland,",,"RecGr,",,"RecGr,","Holland,",,,,,"LyingBack,","0.487481,30.400234",0,"Aaron,Riley,",9 in 30,,,,0,,0
+Buckner_7-15-23_0912,7/15/2023,9:13:02 AM,"Buckner,",4,13,18.46153846,"RecGr,","Holland,","Holland,RichBergl,","RecGr,","Holland,","RecGr,","Holland,","RecGr,","RichBergl,","Buckner,Garrison,Holland,Lucrezia_2,RichBergl,YoYo,","Buckner,Garrison,Holland,Lucrezia_2,RichBergl,YoYo,","LyingBack,","0.488295,30.411482",1,"Aaron,Riley,",10 seconds ,,,,0,,0
+Buckner_7-15-23_1305,7/15/2023,1:05:46 PM,"Buckner,",10,35,17.14285714,"SelfScratch,",,,"Rest.Alert,",,"Travel,",,"Feed,",,,,"LyingBack,","0.490544,30.411341",1,"Aaron,Riley,",Climbed out or Ficus mucuso at 13:00  ; garrison 7 m away ,,0.5,12,24,,0
+Buckner_7-15-23_1446,7/15/2023,2:47:15 PM,"Buckner,",16,60,16,"RecGr,","Holland,","Holland,","RecGr,","Holland,","AlloGr,RecGr,","Holland,","Rest,",,,,"LyingSide,","0.492199,30.411219",1,"Aaron,Riley,",,,,,0,,0
+Buckner_7-20-23_1252,7/20/2023,12:52:41 PM,"Buckner,",,,18.47,"Rest.Relax,",,"Bach,Wes,Baez_2,Camilla,Nyumbani_2,Hutcherson,YoYo,RichBergl,","Rest.Relax,",,"RecGr,","Baez_2,","RecGr,AlloGr,","Baez_2,",,,"LyingSide,","0.492702,30.411933",1,"Riley,",Maybe also receive groom Wes 15 min ago?,,,,0,,0
+Buckner_7-23-23_1415,7/23/2023,2:15:36 PM,"Buckner,",,,20,"Rest.Relax,",,"Hutcherson,YoYo,Wes,Williams,Bach,Larson,","Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,",,,,"LyingSide,","0.506461,30.421650",1,"Riley,",,,,,0,,0
+Cannonball_7-17-23_1328,7/17/2023,1:28:40 PM,"Cannonball,",19.5,49,23.8776,"RecGr,","Woodrow,","Woodrow,Bosko,Puccini,","AlloGr,","Bosko,","AlloGr,","Bosko,","AlloGr,","Bosko,",,,"LyingBack,","0.481990,30.435975",0,"Riley,",,,,,0,,0
+Cannonball_7-17-23_1346,7/17/2023,1:46:17 PM,"Cannonball,",,,0,"RecGr,","Khutulun_0,","Khutulun_0,Khutulun_infant,BobiWine,","RecGr,","Khutulun_0,","RecGr,AlloGr,","Khutulun_0,","Travel,",,,,,"0.481339,30.436201",1,"Riley,Aaron,",Aaron counted; ,,3,65,21.7,,0
+Cannonball_7-21-23_1225,7/21/2023,12:25:35 PM,"Cannonball,",22,60,22,,,,"Rest,",,,,,,,,"LyingSide,","0.478775,30.447069",1,"Aaron,",21.5 ish ; probably resting for last 5 to 15 ,,,,0,,0
+,8/10/2023,12:52:00 PM,"Cannonball,",,,0,"Rest.Relax,",,,"Rest,",,"Rest.Relax,",,"Travel,Display,",,,,"LyingBack,","0.486166,30.433577",1,"Riley,Aaron,",Helicopter flew over at 12:39,,,,0,,0
+,8/10/2023,12:56:25 PM,"Cannonball,",17,30,34,"Rest,",,,"PantHoot,",,"Rest.Relax,",,"Rest,",,,,"LyingBack,","0.486062,30.433478",1,"Riley,Aaron,",,,,,0,,0
+,8/10/2023,1:04:07 PM,"Cannonball,",,,0,"Rest,",,,,,"RecCharge,PG.bark,","Mitchell,Evans,","Rest,",,,,"Sit,","0.486302,30.433551",1,"Riley,Aaron,",Around 13:00 charged by Mitchell and evans (and Puccini joined?) ; ,,,,0,,0
+,8/10/2023,1:11:28 PM,"Cannonball,",12.5,30,25,"Rest.Alert,",,,"Rest.Relax,",,"Rest.Relax,",,"RecCharge,PG.bark,Rest,",,,,"LyingBack,","0.486217,30.433583",0,"Riley,Aaron,",David rustling at middle start ,,,,0,,0
+,8/10/2023,1:19:02 PM,"Cannonball,",,,0,"Rest.Relax,",,,"Rest.Relax,",,"Rest.Relax,",,"Rest,",,,,,"0.486152,30.433499",1,"Riley,Aaron,",Eyes closed ,,,,0,,0
+,8/11/2023,9:24:54 AM,"Cannonball,",12,30,24,"Rest?,",,,,,,,,,,,,"0.488669,30.430923",1,"Riley,Aaron,",,,,,0,,0
+,8/11/2023,9:39:50 AM,"Cannonball,",11,30,22,"Rest,",,"Wilson,Cedar,Chopin,","Rest,",,"Rest,",,,,,,"LyingSide,","0.488726,30.430927",1,"Riley,Aaron,",,,,,0,,0
+Cedar_7-17-23_1337,7/17/2023,1:37:29 PM,"Cedar,",,,0,"RecGr,","Mulligan,","Mulligan,Bosko,Cannonball,Woodrow,Puccin","RecGr,","Mulligan,","AlloGr,","Cedar,","Rest,",,,,"LyingBack,","0.482062,30.436014",1,"Riley,",,,,,0,,0
+,8/10/2023,10:12:29 AM,"Cedar,",,,0,"Rest.Relax,",,,"Feed,Rest,",,"Feed,Rest,",,"Rest,",,,,,"0.475367,30.428858",1,"Riley,Aaron,",Mitchell and shire were within 15 m in prior 5 to 15 min ; feeding on ground stationary ,,,,0,,0
+,8/11/2023,9:21:39 AM,"Cedar,",,,0,"Rest,",,"BobiWine,Bosko,","Rest,",,"Rest,",,,,,,,"0.488711,30.430748",1,"Riley,",,,,,0,,0
+,8/11/2023,9:45:22 AM,"Cedar,",,,0,"RecGr,","Wilson,","Wilson,Cannonball,Chopin,","RecGr,","Wilson,","Rest,",,"Rest,",,,,,"0.488738,30.430816",1,"Riley,Aaron,",,,,,0,,0
+,8/11/2023,9:54:18 AM,"Cedar,",,,0,"RecGr,","Wilson,","Wilson,Chopin,Cannonball,Shire_2,",,,"RecGr,","Wilson,","RecGr,Rest,","Wilson,",,,,"0.488706,30.430831",1,"Riley,Aaron,",,,,,0,,0
+,7/18/2023,11:58:46 AM,Chopin,4,17,14.1176,RecGroom,BobiWine,,RecGroom,BobiWine,MutGroom,BobiWine,AlloGroom,BobiWine,,,"Quadrupedal,","0.438323,30.405865",0,"Riley,",,,,,0,,0
+,7/18/2023,12:06:31 PM,Chopin,24.5,60,24.5,Rest,,,,,RecGroom,BobiWine,RecGroom,BobiWine,,,"LyingBack,","0.479064,30.448320",0,"Riley,","Heard chimp in the distance call, stood up, directed head in that direction, laid back down ",,,,0,,0
+,7/18/2023,12:12:55 PM,Chopin,18,50,21.6,Rest,,,,,Rest,,Rest,,,,"LyingSide,","0.449299,30.424235",0,"Riley,",,,,,0,,0
+Chopin_C0259,8/11/2023,9:31:23 AM,Chopin,,,0,Rest,,,Rest ,CedarWilsonCannonball,AlloGroom ,Wilson,AlloGroom ,Wilson,,,,"0.488721,30.430837",1,"Riley,",,,,,0,,0
+Chopin_C0260,8/11/2023,9:38:17 AM,Chopin,,,0,Rest,Cedar Wilson cannonball,,Rest,CannonballCedarWilson,Rest,CannonballCedarWilson,AlloGroom ,Wilson,,,"LyingSide,","0.477979,30.410855",1,"Riley,",Eyes closed for parts of video,,,,0,,0
+Chopin_7-21-23_1550,7/21/2023,3:50:03 PM,"Chopin,",,,0,"Rest.Alert,",,,"Rest.Alert,Display,",,"Display,",,"Rest,",,,,"Sit,","0.471389,30.442004",1,"Aaron,",,,,,0,,0
+Chopin_7-21-23_1555,7/21/2023,3:55:34 PM,"Chopin,",24,60,24,"Rest.Alert,",,,"Rest.Alert,",,"Display,",,,,,,,"0.471414,30.442010",0,"Aaron,",Two kids in proximity ; violets around ,,,,0,,0
+Chopin_S1710017,8/10/2023,11:17:07 AM,"Chopin,",,,0,"Feed,",,,"Travel,",,"Travel,",,,,,,"Sit,","0.477718,30.431388",1,"Riley,Aaron,",Heard calls and moved very quickly ; had been begging meet from shire ,,3.66,210,57.4,,0
+Chopin_S1710025,8/10/2023,12:26:16 PM,"Chopin,",,,0,"Travel,",,"Cedar,","Travel,",,"Display,Travel,",,"Travel,",,,,,"0.485958,30.433362",0,"Riley,Aaron,",Cate_2 ahead 15 m; displayed 2 min ago at cate ,,,,0,,1
+,8/12/2023,3:46:50 PM,Damien,,,0,Rest,,,Rest,,Rest,,Rest,,,,"LyingBack,","0.487412,30.403422",1,"Riley,","Fricka and Justine passed by, calls to the west",,,,0,,0
+,8/12/2023,3:57:34 PM,Damien,,,0,Rest,,,Rest,,Rest ,,Rest,,,,"LyingBack,","0.500483,30.344547",1,"Riley,",,,,,0,,0
+,8/12/2023,3:58:31 PM,Damien,,,0,Rest,,,Rest,,Rest,,Rest ,,,,"Sit,","0.487393,30.403435",1,"Riley,",Heard calls and sat up ,,,,0,,0
+,8/13/2023,3:52:14 PM,Damien,11,30,22,Rest ,,,Climb,AnnaDoudnaRollins,Feed,AnnaDoudnaRollins,Feed,AnnaDoudnaRollins,,,"LyingBack,","0.519836,30.361159",1,"Aaron,",Climbed down Celtis Africana and immediately lied down at base of tree,,,,0,15,1
+,8/12/2023,11:42:14 AM,"Damien,",,,0,"Rest,",,"EttaJames_0,","Rest,",,"Rest,",,,,,,,"0.483494,30.412333",0,"Riley,Aaron,",Etta left proximity ,,,,0,,0
+,8/12/2023,11:47:57 AM,"Damien,",,,0,"Rest.Alert,",,,"Rest.Relax,",,"Rest,",,,,,,"LyingBack,","0.483467,30.412252",1,"Riley,Aaron,",Sat up and soft call mid video; others feeding in cordia; Etta in 15 m,,,,0,,0
+,8/12/2023,11:51:00 AM,"Damien,",,,0,"Rest.Alert,",,,"Rest,",,"Rest,SelfGr,",,,,,,"Sit,","0.483457,30.412262",1,"Riley,Aaron,",,,,,0,,0
+,8/12/2023,11:58:51 AM,"Damien,",20,60,20,"Rest.Relax,",,,"Rest,",,"Rest,",,"Rest,SelfGr,",,,,"LyingSide,","0.483459,30.412319",1,"Riley,Aaron,",,,,,0,,0
+,8/12/2023,2:11:17 PM,"Damien,",9,30,18,"Rest,",,,"Rest.Relax,",,"Rest,Feed,",,"Travel,",,,,"LyingBack,","0.486012,30.405937",1,"Aaron,",,,,,0,,0
+,8/12/2023,2:25:00 PM,"Damien,",,,0,"Rest.Relax,",,"Rollins,Hutcherson,YoYo,",,,"Rest,",,"Travel,Feed,",,,,"LyingBack,","0.485817,30.405218",1,"Aaron,",,,,,0,,0
+,8/12/2023,4:17:04 PM,"Damien,",,,0,"RecGr,","Sabin_0,",,"Groom,","Sabin_0,","RecGr,AlloGr,","Sabin_0,","Groom,","Sabin_0,",,,"Quadrupedal,","0.488224,30.400865",1,"Riley,",,,,,0,,0
+,8/12/2023,4:27:52 PM,"Damien,",5,15,20,"RecGr,","Sabin_0,","Sabin_0,Sabin_infant,","RecGr,Touch,","Sabin_0,Sabin_infant,","AlloGr,RecGr,","Sabin_0,","Groom,","Sabin_0,",,,"LyingSide,","0.488309,30.400874",1,"Aaron,","And receive touch Sabin_infant,",,,,0,,0
+,8/13/2023,11:23:24 AM,"Damien,",,,0,"Rest,",,"Sally,Rollins,","Rest,",,"Travel,",,"Travel,",,,,"Sit,","0.515312,30.405398",1,"Aaron,",,,,,0,,0
+,8/13/2023,11:28:18 AM,"Damien,",,,0,"Rest,",,,"Rest,",,"Hit,Display,Rest,","Anna_1,","Rest,Travel,",,,,"LyingSide,","0.515666,30.405329",1,"Riley,",,,,,0,,0
+,8/13/2023,3:04:52 PM,"Damien,",9,30,18,,,,"Rest,",,"Feed,",,"Feed,Travel,",,,,"LyingBack,","0.514138,30.401651",1,"Aaron,",,,,,0,,0
+Elton_S1710001,8/10/2023,9:08:00 AM,"Elton,",,,0,"Rest.Relax,",,,"Travel,",,"Rest,",,"OutView,Feed,",,,,"LyingBack,","0.474261,30.430142",1,"Riley,Aaron,",Wilson 17 m ,,1,15,15,8,1
+,8/10/2023,9:17:01 AM,"Elton,",13,30,26,"Rest,",,,"Rest.Alert,",,"Rest.Relax,",,"OutView,",,,,"LyingBack,","0.474334,30.430101",1,"Riley,Aaron,",Wilson in 17 ; heard chimps calling from tree,,,,0,,0
+Elton_S1710019,8/10/2023,11:55:48 AM,"Elton,",,,0,"Feed,",,,"Display,",,"Travel,",,"Travel,",,,,"Sit,","0.482989,30.432650",1,"Riley,Aaron,",Just 5 seconds or so ,,19,450,23.7,20,1
+Evans_by_Elton_S1730014,8/11/2023,9:29:39 AM,"Elton,",,,0,"RecGr,","Evans,","Evans,","Rest.Relax,",,"AlloGr,RecGr,","Evans,","AlloGr,RecGr,","Evans,",,,"LyingBack,","0.488676,30.430773",1,"Riley,Aaron,",,,,,0,,0
+,8/11/2023,9:43:33 AM,"Elton,",13,30,26,"Rest.Relax,",,,"Rest,",,"AlloGr,RecGr,","Evans,","Groom,","Evans,",,,,"0.488652,30.430900",1,"Riley,Aaron,",,,,,0,,0
+,8/11/2023,11:11:21 AM,"Elton,",9,20,27,"Rest.Alert,",,,"PiloErection,",,"Rest.Alert,Display,",,"Travel,",,,,"Sit,","0.488693,30.430854",1,"Riley,Aaron,",Maybe Cate_2 in tree,,,,0,,0
+Elton_S1730044,8/11/2023,11:18:55 AM,"Elton,",,,0,"Rest.Alert,",,,"Rest.Alert,",,"Rest,RecGr,","Nelson,","Travel,Display,",,,,"LyingBack,","0.488591,30.430940",1,"Riley,Aaron,",,,,,0,,0
+Elton_C0276,8/11/2023,11:35:16 AM,"Elton,",,,0,"Rest.Relax,",,,"Rest.Relax,",,"Rest,",,"RecGr,","Evans,",,,"LyingBack,","0.488713,30.430904",1,"Riley,Aaron,",,,,,0,,0
+Elton_S1730051,8/11/2023,12:05:47 PM,"Elton,",,,0,"RecGr,","Shire_2,","Shire_2,Evans,Wilson,Puccini,Khutulun_0,Khutulun_infant,Nelson,",,,"RecGr,","Shire_2,","Rest.Relax,RecGr,","Shire_2,",,,,"0.488717,30.430909",1,"Riley,Aaron,",,,,,0,,0
+,8/11/2023,12:15:26 PM,"Elton,",25,60,25,"Rest.Relax,",,"Wilson,Evans,Puccini,Nelson,Khutulun_0,Khutulun_infant,","Rest.Relax,",,"Rest.Relax,",,"RecGr,","Shire_2,",,,"LyingSide,","0.488681,30.430875",1,"Riley,Aaron,",,,,,0,,0
+,8/11/2023,12:48:39 PM,"Elton,",,,0,"Rest.Alert,",,,"Display,",,"Rest,",,"Rest.Relax,",,,,"Sit,","0.488731,30.430861",1,"Riley,",,,,,0,,0
+,8/12/2023,11:41:47 AM,"EttaJames_0,",,,0,"Rest,",,"Damien,","Rest,",,"Rest,",,,,,,,"0.483513,30.412327",1,"Riley,Aaron,",Others in cordia ,,,,0,,0
+,8/12/2023,3:51:14 PM,"EttaJames_0,",12,30,24,"Rest.Relax,",,,"Rest.Relax,",,"Rest,",,,,,,,"0.487500,30.403370",1,"Aaron,",Damien and fricka in 20 m,,,,0,,0
+,8/11/2023,9:18:51 AM,"Evans,",,,0,"RecGr,","Elton,","Elton,","RecGr,","Elton,","RecGr,AlloGr,","Elton,",,,,,"LyingBack,","0.488667,30.430881",1,"Riley,",,,,,0,,0
+,8/11/2023,9:35:50 AM,"Evans,",,,0,"RecGr,","Elton,",,"RecGr,",,"AlloGr,RecGr,","Elton,","Groom,","Elton,",,,"LyingBack,","0.488639,30.430834",1,"Riley,Aaron,",,,,,0,,0
+,8/11/2023,12:26:44 PM,"Evans,",,,0,"RecGr,","Wilson,","Wilson,Elton,","AlloGr,","Wilson,","AlloGr,","Wilson,","Groom,","Wilson,",,,,"0.488722,30.430845",1,"Riley,",,,,,0,,0
+,8/11/2023,12:58:10 PM,"Evans,",,,0,"QuadAlert,",,,"Travel,Rest.Alert,",,"Rest,AlloGr,MutlGr,","Wilson,","Rest,",,,,"Quadrupedal,","0.488778,30.430866",1,"Riley,Aaron,",,,1,20,20,,0
+,8/12/2023,3:09:46 PM,"Fricka_2,",,,0,"Rest,",,,"Rest,",,"Rest,Travel,",,,,,,"LyingBack,","0.487357,30.404524",1,"Aaron,",,,,,0,,0
+,8/12/2023,3:13:35 PM,"Fricka_2,",,,0,"Rest,",,,"Rest,",,"Rest,",,,,,,"LyingBack,","0.487326,30.404562",1,"Aaron,",Touching swollen eye ,,,,0,,0
+,8/12/2023,3:30:42 PM,"Fricka_2,",15.5,30,31,"Rest.Relax,",,,"Rest,",,"Rest,",,"Rest,",,,,,"0.487182,30.404536",1,"Aaron,",,,,,0,,0
+,8/12/2023,3:39:20 PM,"Fricka_2,",14.5,30,29,"Rest,",,,"Rest,",,"Rest.Relax,",,"Rest,",,,,"LyingBack,","0.487310,30.404487",0,"Aaron,",,,,,0,,0
+,8/12/2023,3:46:51 PM,"Fricka_2,",,,0,"Rest,",,,"Travel,",,"Travel,",,"Rest,",,,,"LyingBack,","0.487468,30.403280",1,"Aaron,",,,5,130,26,,0
+,8/12/2023,4:11:53 PM,"Fricka_2,",,,0,,,"Sabin_0,Sabin_infant,Damien,Louis,",,,,,,,,,"LyingBack,","0.488356,30.400799",0,"Aaron,",,,,,0,,0
+Garrison_7-23-23_1539,7/23/2023,3:40:17 PM,Garrison,,,0,Rest,,,Rest,,Rest,,Rest,,,,,"0.500820,30.421813",0,"Riley,","25 min after IGE with central, resting > 15 after being vigilant and moving 25 m south 20 min ago ",,,,0,,0
+Garrison_7-15-23_0925,7/15/2023,9:25:30 AM,"Garrison,",14,70,12,"RecGr,","RichBergl,","RichBergl,","RecGr,","RichBergl,","RecGr,","RichBergl,","Rest.Relax,",,"Buckner,Garrison,Holland,Lucrezia_2,RichBergl,YoYo,","Buckner,Garrison,Holland,Lucrezia_2,RichBergl,YoYo,","Quadrupedal,","0.488364,30.411432",1,"Aaron,Riley,",,,0.1,4,40,,0
+Garrison_7-15-23_1315,7/15/2023,1:15:15 PM,"Garrison,",18,60,18,"Rest.Relax,",,"Buckner,",,,"RecGr,","Buckner,","Rest.Relax,","Buckner,",,,"LyingBack,","0.490433,30.411315",0,"Aaron,Riley,",,,,,0,,0
+Garrison_7-15-23_1317,7/15/2023,1:17:03 PM,"Garrison,",17,56,18.21428571,"Rest.Relax,",,"Buckner,","Rest.Relax,",,"RecGr,","Buckner,","Rest.Relax,",,,,"LyingBack,","0.490462,30.411228",1,"Aaron,Riley,",,,,,0,,0
+Garrison_7-15-23_1322,7/15/2023,1:22:23 PM,"Garrison,",25,90,16.66666667,"Rest.Relax,",,"RichBergl,Buckner,","SelfGr,",,"Rest.Relax,",,"RecGr,","Buckner,",,,"LyingBack,","0.490424,30.411328",1,"Aaron,Riley,",Yawn ,,,,0,,0
+Garrison_7-15-23_1326,7/15/2023,1:26:12 PM,"Garrison,",19,60,19,"Rest.Relax,",,"Buckner,RichBergl,","Rest.Relax,",,"Rest.Relax,",,"RecGr,","Buckner,",,,"LyingBack,","0.490404,30.411362",0,"Aaron,Riley,",,,,,0,,0
+Garrison_7-15-23_1328,7/15/2023,1:27:54 PM,"Garrison,",24,80,18,"RecGr,","Holland,","Holland,Buckner,RichBergl,","Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,",,,,,"0.490383,30.411348",1,"Aaron,Riley,",,,,,0,,0
+Garrison_7-15-23_1331,7/15/2023,1:30:50 PM,"Garrison,",16,60,16,"RecGr,Rest.Relax,","Holland,","Holland,Buckner,RichBergl,","RecGr,",,"Rest.Relax,",,"Rest.Relax,",,,,,"0.490421,30.411376",0,"Aaron,Riley,",Big breath right before 60 seconds ; Holland stopped grooming in first few seconds ,,,,0,,0
+Garrison_7-15-23_1332,7/15/2023,1:32:16 PM,"Garrison,",36,120,18,"RecGr,","Holland,","Holland,Buckner,RichBergl,","RecGr,Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,",,,,"LyingBack,","0.490423,30.411347",1,"Aaron,Riley,",,,,,0,,0
+Garrison_7-15-23_1334,7/15/2023,1:34:34 PM,"Garrison,",20,60,20,"RecGr,Rest.Relax,",,"Holland,Buckner,RichBergl,","RecGr,","Holland,","RecGr,Rest.Relax,",,"Rest.Relax,",,,,"LyingBack,","0.490430,30.411332",0,"Aaron,Riley,",Holland stoped grooming 20 seconds and then walked over him; garrison moved as of to listen to something at 40 second ,,,,0,,0
+Garrison_7-23-23_1550,7/23/2023,3:50:08 PM,"Garrison,",7,30,14,"Rest.Relax,",,"Larson,","Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,",,,,"LyingBack,","0.500733,30.421824",1,"Riley,Aaron,",Post IGE at F.5/2,,,,0,,0
+Gus_7-22-23_1102,7/22/2023,11:05:40 AM,"Gus,",,,0,"RecGr,","Powell,","Powell,Jolie_0,Kabacwezi,",,,"MutlGr,","Powell,","Rest,",,"Gus,Powell,Jolie_0,Kabacwezi,","Gus,Powell,Jolie_0,Kabacwezi,",,"0.500909,30.422429",0,"Riley,",,,,,0,,0
+Gus_7-22-23_1125,7/22/2023,11:25:45 AM,"Gus,",,,0,"RecGr,","Powell,","Powell,Kabacwezi,",,,"AlloGr,AlloGr,","Powell,Kabacwezi,","AlloGr,","Powell,","Gus,Powell,Jolie_0,Kabacwezi,","Gus,Powell,Jolie_0,Kabacwezi,","Sit,","0.500891,30.422424",1,"Riley,",,,,,0,,0
+Gus_7-22-23_1133,7/22/2023,11:33:38 AM,"Gus,",,,0,"RecGr,","Powell,","Powell,","RecGr,","Powell,","RecGr,","Powell,","AlloGr,","Kabacwezi,","Gus,Powell,Jolie_0,Kabacwezi,","Gus,Powell,Jolie_0,Kabacwezi,","LyingBack,","0.500896,30.422419",1,"Riley,",Maybe but bad light ; has just been on log grooming ,,,,0,,0
+Gus_7-23-23_1130,7/23/2023,11:30:42 AM,"Gus,",15,30,30,"Rest.Relax,",,,"Travel,",,"Feed,",,"Feed,",,,,,"0.500964,30.422046",1,"Aaron,",Garett in 7m; had been moving on ground for past 5-10 min feeding Mucuso ground ; westerns at h/4 maybe ,,2,30,15,,0
+Gus_7-23-23_1136,7/23/2023,11:36:56 AM,"Gus,",,,0,"Rest.Relax,",,,"Rest.Relax,",,"Rest.Relax,",,"Feed,Travel,",,,,"LyingBack,","0.501054,30.422043",1,"Aaron,",,,,,0,,0
+Gus_7-23-23_1140,7/23/2023,11:40:45 AM,"Gus,",10,22,27.2727,"Rest.Relax,",,,"Rest.Relax,",,"Rest.Relax,",,,,,,"LyingBack,","0.500991,30.422029",0,"Aaron,",,,,,0,,0
+Gus_7-23-23_1144,7/23/2023,11:44:10 AM,"Gus,",9,22,24.5455,"Rest.Relax,",,,"Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,",,,,"LyingBack,","0.501047,30.422058",1,"Aaron,",Stationary over 15 min; rest on ground ,,,,0,,0
+Gus_7-23-23_1243,7/23/2023,12:43:26 PM,"Gus,",6,15,24,"RecGr,","Denis,","Denis,","RecGr,","Denis,","Groom,","Denis,","AlloGr,RecGr,","Denis,",,,,"0.444368,30.404774",1,"Aaron,",Assume Denis (swollen left eye); grooming for over 30 min ,,,,0,,0
+Gus_7-23-23_1307,7/23/2023,1:07:43 PM,"Gus,",24,60,24,"Rest.Relax,",,"Denis,Ruth_0,Ruth_infant,Powell,","AlloGr,","Powell,","AlloGr,","Powell,",,,,,,"0.501009,30.421884",1,"Aaron,",Just rolled over ,,,,0,,0
+,8/11/2023,2:09:10 PM,"Gus,",,,0,"Rest.Relax,",,"Wilson,","AlloGr,","Wilson,","AlloGr,","Wilson,",,,,,"LyingBack,","0.488602,30.430794",1,"Riley,Aaron,",Arrived around 13:45 ,,,,0,,0
+Holland_7-11-23_1346,7/11/2023,1:46:51 PM,"Holland,",6,23,15.6522,"Rest.Relax,","Fricka_2,",,,,,,"Rest,",,,,"LyingBack,","0.491970,30.399440",0,"Aaron,",Fricka in 5 m ; Buckner in 15 m ; 5 breaths at 15 seconds ,,,,0,,0
+Holland_7-13-23_1458,7/13/2023,2:58:04 PM,"Holland,",19.5,60,19.5,"Rest.Relax,","Buckner,","Holland,","Rest.Relax,",,"Rest.Relax,",,"AlloGr,","Buckner,",,,"LyingSide,","0.487463,30.400196",1,"Aaron,Riley,",Resting within 1m Buckner ,,,,0,,0
+Holland_7-15-23_1336,7/15/2023,1:36:19 PM,"Holland,",10,27,22.22222222,"Rest.Alert,Rest.Relax,",,"Garrison,RichBergl,Buckner,","Rest.Relax,",,"AlloGr,","Garrison,",,,,,"LyingSide,","0.490379,30.411325",1,"Aaron,Riley,",Got startled at the start ,,,,0,,0
+Holland_7-15-23_1338,7/15/2023,1:38:43 PM,"Holland,",21,60,21,"Rest.Relax,",,"Garrison,RichBergl,Buckner,",,,"Rest.Relax,Rest.Alert,AlloGr,",,,,,,"LyingSide,","0.490426,30.411333",0,"Aaron,Riley,",,,,,0,,0
+Holland_7-15-23_1340,7/15/2023,1:40:09 PM,"Holland,",10.5,30,21,"SelfScratch,Rest.Alert,Rest.Relax,","Garrison,","Garrison,Buckner,RichBergl,","Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,AlloGr,",,,,"LyingBack,","0.490390,30.411283",1,"Aaron,Riley,",Monkeys vocalizing above them nearby ,,,,0,,0
+Holland_7-15-23_1351,7/15/2023,1:51:42 PM,"Holland,",20,60,20,"Rest.Relax,","Garrison,","Garrison,RichBergl,Buckner,YoYo,","AlloGr,","Garrison,","AlloGr,","Garrison,","Rest.Relax,",,,,"LyingBack,","0.490424,30.411323",1,"Aaron,Riley,",,,,,0,,0
+Holland_7-15-23_1356,7/15/2023,1:54:48 PM,"Holland,",8,22,21.8182,"Rest.Relax,","Garrison,","Garrison,YoYo,RichBergl,Buckner,","Rest.Relax,",,"AlloGr,","Garrison,",,,,,"LyingBack,","0.490389,30.411290",1,"Aaron,Riley,",,,,,0,,0
+Holland_7-15-23_1357,7/15/2023,1:57:47 PM,"Holland,",21,60,21,"Rest.Relax,","Garrison,","Garrison,RichBergl,YoYo,Buckner,","Rest.Relax,",,"AlloGr,","Garrison,","Rest,","Garrison,",,,"LyingSide,","0.490400,30.411302",1,"Aaron,Riley,",11 after 30; like 21.5 almost ,,,,0,,0
+Holland_7-15-23_1403,7/15/2023,2:02:36 PM,"Holland,",,,,"Rest.Relax,","Garrison,","Garrison,RichBergl,YoYo,Buckner,","Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,","Garrison,",,,"LyingSide,","0.490366,30.411326",1,"Aaron,Riley,",,,,,0,,0
+Holland_7-15-23_1405,7/15/2023,2:05:57 PM,"Holland,",20,60,20,"Rest.Relax,","Garrison,","Garrison,RichBergl,YoYo,Buckner,","Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,",,,,"LyingSide,","0.490446,30.411317",1,"Aaron,Riley,",11 at 30; 20.5 in 60; finished grooming 15 min ago ,,,,0,,0
+Holland_7-15-23_1434,7/15/2023,2:34:01 PM,"Holland,",10,30,20,"Rest.Relax,",,"Buckner,","Rest,",,"Travel,",,"Travel,",,,,"LyingBack,","0.491954,30.411294",1,"Aaron,Riley,",,,,,0,,0
+Hutcherson_C0296,8/12/2023,2:37:17 PM,Hutcherson,,,0,RecGroom ,Buckner,,RecGroom ,Buckner,Rest,RollinsDamienYoYo,Feed,,,,"LyingBack,","0.479154,30.390502",1,"Riley,",,,,,0,,0
+Hutcherson_7-11-23_1413,7/11/2023,2:13:00 PM,"Hutcherson,",31,120,15.5,"Rest.Relax,","Buckner,",,"RecGr,","Buckner,",,,"Rest.Alert,","YoYo,Buckner,",,,"LyingBack,","0.491830,30.399400",1,"Riley,",,,,,0,,0
+Hutcherson_7-20-23_1346,7/20/2023,1:45:15 PM,"Hutcherson,",,,0,"Rest.Relax,",,"YoYo,",,,"RecGr,","Hutcherson,","RecGr,","Hutcherson,",,,,"0.493193,30.412564",1,"Riley,",,,,,0,,0
+Hutcherson_7-20-23_1350,7/20/2023,1:50:57 PM,"Hutcherson,",,,0,"RecGr,","Justine_2,","Justine_2,YoYo,",,,,,"AlloGr,","Wes,",,,"LyingBack,","0.493128,30.412661",1,"Riley,",,,,,0,,0
+Hutcherson_C0295,8/12/2023,2:35:22 PM,"Hutcherson,",,,0,"Rest,",,"Buckner,Rollins,Damien,",Rest?,,"Rest,",,,,,,,"0.485860,30.405269",1,"Riley,",,,,,0,,0
+Hutcherson_C0304,8/12/2023,4:43:24 PM,"Hutcherson,",,,0,,,"Buckner,",Rest?,,"Rest,",,,,,,"LyingBack,","0.488641,30.400775",1,"Riley,",Sabin approach and pant grunt. Mid ,,,,0,,0
+Jolie_7-22-23_1503,7/22/2023,3:05:37 PM,Jolie,,,0,RecGroom ,Kabacwezi,,RecGroom,Kabacwezi,Mutual grooming,Kabacwezi,AlloGroom ,Kabacwezi,,,"LyingSide,","0.470341,30.388418",1,"Riley,",,,,,0,,0
+Jolie_7-22-23_1507,7/22/2023,3:09:16 PM,Jolie,,,0,RecGroom,Kabacwezi,,RecGroom ,Kabacwezi,RecGeoom,Kabacwezi,Mutual Groom,Kabacwezi,,,"LyingSide,","0.489088,30.407248",1,"Riley,",,,,,0,,0
+Jolie_7-22-23_1213,7/22/2023,12:13:43 PM,"Jolie_0,",5,18,16.6667,"RecGr,","Ruth_0,","Ruth_0,Ruth_infant,Kabacwezi,","RecGr,",,"RecGr,","Ruth_0,","AlloGr,RecGr,","Ruth_0,","Ruth_0,Ruth_infant,Jolie_0,Kabacwezi,Callas_0,",,,"0.500979,30.421791",1,"Aaron,",Callas and Toshi probably Kano ,,,,0,,0
+Jolie_7-22-23_1435,7/22/2023,2:35:40 PM,"Jolie_0,",7,15,28,"Feed,",,"Kabacwezi,","Travel,",,"Travel,",,,,"Ruth_0,Callas_0,Ruth_infant,Kano,Toshi,Leonora_0,","Ruth_0,Callas_0,Ruth_infant,Kano,Toshi,Leonora_0,","Sit,","0.501343,30.421446",1,"Aaron,",,,,,0,,0
+Jolie_7-22-23_1440,7/22/2023,2:40:32 PM,"Jolie_0,",12.5,30,25,,,"Kabacwezi,","Feed,",,"Feed,",,"Travel,",,,,"Sit,","0.501348,30.421414",1,"Aaron,",,,,,0,,0
+Jolie_7-22-23_1517,7/22/2023,3:17:18 PM,"Jolie_0,",,,0,"RecGr,","Kabacwezi,","Kabacwezi,","AlloGr,",,"RecGr,AlloGr,","Kabacwezi,","Groom,","Kabacwezi,","Alexandria,Callas_0,Jolie_0,Kabacwezi,Kano,Leonora_0,Lumumba,Natalie_0,Ruth_0,Ruth_infant,Toshi,",,"LyingBack,","0.501328,30.421398",0,"Riley,",,,,,0,,0
+Jolie_7-22-23_1523,7/22/2023,3:23:43 PM,"Jolie_0,",,,0,"Feed,",,,"Feed,",,"Travel,",,"RecGr,","Kabacwezi,",,,"Sit,","0.501226,30.421321",1,"Aaron,",,,1,12,12,,0
+Jolie_7-23-23_0912,7/23/2023,9:12:00 AM,"Jolie_0,",,,0,"Rest.Alert,RecGr,","Kabacwezi,",,"RecGr,","Kabacwezi,","RecGr,Rest.Alert,","Kabacwezi,","Travel,Rest.Alert,Groom,",,,,"Sit,","0.501808,30.422155",1,"Aaron,",,,,,0,,0
+Jolie_7-23-23_1248,7/23/2023,12:48:00 PM,"Jolie_1,",,,0,"Rest,",,,"RecGr,Rest.Relax,",,"RecGr,","Garett,",,,,,,"0.438049,30.402249",1,"Aaron,",Garret was grooming around 2 min prior ,,,,0,,0
+Jolie_7-23-23_1253,7/23/2023,12:53:01 PM,"Jolie_1,",29,60,29,"Rest.Relax,",,,,,"Rest.Relax,",,"RecGr,","Garett,",,,,"0.493007,30.420640",1,"Aaron,",Had just rolled over ,,,,0,,0
+Justine_7-12-23_1458,7/12/2023,2:58:44 PM,"Justine_0,",7,19,22.1053,"Rest.Relax,",,,"Rest.Alert,SelfGr,",,"Rest.Relax,Rest.Alert,",,,,,,"LyingBack,","0.518794,30.406628",0,"Aaron,Riley,",Resting in tree while others in papyrus swamp ,,,,0,,0
+Justine_7-12-23_1511,7/12/2023,3:11:00 PM,"Justine_0,",13,35,22.28571429,"Rest,",,,"Rest,",,"Rest,",,"SelfGr,",,"EttaJames_0,Hutcherson,Justine_0,Leo,Ntwiga_0,Nyumbani_0,Silver,","EttaJames_0,Hutcherson,Justine_0,Leo,Ntwiga_0,Nyumbani_0,Silver,","Sit,","0.518824,30.406578",1,"Aaron,Riley,",In tree while rest of party 50m plus in papyrus swamp ,,,,0,,0
+Justine_7-12-23_1515,7/12/2023,3:15:19 PM,"Justine_0,",11.5,30,23,"Rest.Alert,",,,,,"Rest.Alert,Rest,",,"Rest,",,"EttaJames_0,Hutcherson,Justine_0,Leo,Ntwiga_0,Nyumbani_0,Silver,","EttaJames_0,Hutcherson,Justine_0,Leo,Ntwiga_0,Nyumbani_0,Silver,","LyingSide,","0.518819,30.406603",0,"Aaron,Riley,",,,,,0,,0
+Kabacwezi_7-22-23_1103,7/22/2023,11:03:54 AM,"Kabacwezi,",6,16,22.5,"Rest,",,"Gus,Powell,Jolie_0,","Rest,",,"Rest,",,,,,,"LyingSide,","0.500855,30.422392",1,"Aaron,",,,,,0,,0
+Kabacwezi_7-22-23_1444,7/22/2023,2:44:02 PM,"Kabacwezi,",17,30,34,,,"Jolie_0,","Rest.Relax,",,"Rest.Relax,",,"Travel,",,,,"LyingSide,","0.501373,30.421416",0,"Aaron,",,,,,0,,0
+Kabacwezi_7-22-23_1447,7/22/2023,2:47:47 PM,"Kabacwezi,",,,0,"RecGr,","Jolie_0,","Jolie_0,","RecGr,","Jolie_0,","Rest,",,"Rest,",,,,"LyingSide,","0.501294,30.421407",1,"Aaron,",,,,,0,,0
+Khutulun_7-17-23_1407,7/17/2023,2:07:52 PM,"Khutulun_0,",,,0,"RecGr,","Cannonball,","Khutulun_infant,Cannonball,BobiWine,","RecGr,","Cannonball,","AlloGr,RecGr,","Cannonball,","RecGr,AlloGr,","Cannonball,",,,"LyingSide,","0.481362,30.436238",1,"Riley,Aaron,",,,,,0,,0
+Lucy_7-22-23_0842,7/22/2023,8:42:00 AM,"Lucy_2,",,,0,"QuadAlert,",,,"RecDisplay,",,,,,,,,,"0.481894,30.430572",1,"Aaron,",,,,,0,,0
+,7/18/2023,11:51:18 AM,Mitchell,17,60,17,Rest,,,RecGroom,Chopin,RecGroom,Chopin,RecGroom,Chopin,,,"LyingSide,","0.433141,30.407572",0,"Riley,",Chopin and Bobiwine within 1m mutual grooming ,,,,0,,0
+,7/19/2023,11:53:30 AM,Mitchell,18,60,18,Rest,,,Rest,,Rest,,Feed,,,,"LyingSide,","0.430845,30.406874",0,"Riley,",,,,,0,,0
+,7/19/2023,12:46:28 PM,Mitchell,12,47,15.3191,RecGroom,Mulligan,,RecGroom,Mulligan,AlloGroom,Mulligan,AlloGroom,Mulligan,,,"LyingSide,","0.430409,30.408207",0,"Riley,",,,,,0,,0
+,7/19/2023,1:19:17 PM,Mitchell,18,60,18,Rest,,,Rest,,Rest,,Rest,,,,"LyingSide,","0.438426,30.404278",0,"Riley,",,,,,0,,0
+,8/11/2023,11:34:44 AM,"Mitchell,",,,0,"Rest.Relax,",,,,,"Rest,",,,,,,,"0.488666,30.430877",1,"Riley,Aaron,",Tree ,,,,0,,0
+,8/11/2023,2:19:28 PM,"Mitchell,",,,0,"Rest.Relax,",,"Cedar,","RecGr,","Mitchell,","Travel,",,,,,,"LyingBack,","0.488462,30.430973",1,"Riley,Aaron,",,,,,0,,0
+,7/19/2023,12:42:57 PM,Mulligan,12,48,15,RecGroom,Mitchell,,RecGroom,Mitchell,RecGroom,Mitchell,AlloGroom,Mitchell,,,"LyingSide,","0.478628,30.448306",0,"Riley,",,,,,0,,0
+Mulligan_7-17-23_1307,7/17/2023,1:08:02 PM,"Mulligan,",,,0,"RecGr,","Cedar,","Cedar,Cannonball,Woodrow,",,,,,,,"Cannonball,Cedar,Mitchell,Mulligan,Wilson,Woodrow,","Cannonball,Cedar,Mitchell,Mulligan,Wilson,Woodrow,","LyingBack,","0.482308,30.436003",1,"Aaron,Riley,",A,,,,0,,0
+Mulligan_7-17-23_1310,7/17/2023,1:10:49 PM,"Mulligan,",,,0,"Vocal,Rest.Alert,",,"Cedar,Cannonball,Woodrow,","RecGr,","Cedar,","RecGr,","Cedar,","RecGr,","Cedar,","Cannonball,Cedar,Mitchell,Mulligan,Wilson,Woodrow,","Cannonball,Cedar,Mitchell,Mulligan,Wilson,Woodrow,","Sit,","0.482313,30.435904",1,"Aaron,Riley,",B,,,,0,,0
+Mulligan_7-17-23_1322,7/17/2023,1:22:52 PM,"Mulligan,",,,0,"RecGr,",,"Mitchell,Cedar,",,,"AlloGr,",,,,,,,"0.482005,30.435922",1,"Riley,",,,,,0,,0
+Mulligan_7-17-23_1325,7/17/2023,1:26:48 PM,"Mulligan,",,,0,"MutlGr,",,"Mitchell,Cedar,",,,,,,,,,,"0.482005,30.435979",1,"Riley,",,,,,0,,0
+Mulligan_7-17-23_1332,7/17/2023,1:33:31 PM,"Mulligan,",,,0,"AlloGr,RecGr,","Mitchell,Cedar,","Cedar,Mitchell,Mulligan,",,,,,,,,,,"0.482021,30.435965",1,"Riley,",Riley add details ,,,,0,,0
+Mulligan_7-21-23_1155,7/21/2023,11:55:10 AM,"Mulligan,",17,60,17,"Rest.Relax,",,"Evans,Wilson,","Rest.Relax,",,"RecGr,","Evans,","MutlGr,AlloGr,RecGr,","Evans,",,,"LyingBack,","0.478811,30.447146",1,"Aaron,",,,,,0,,0
+Mulligan_7-21-23_1201,7/21/2023,12:01:37 PM,"Mulligan,",9,30,18,"Rest.Relax,",,"Evans,Wilson,","Rest.Relax,",,"Rest.Relax,",,"RecGr,AlloGr,MutlGr,","Evans,",,,,"0.478869,30.447235",1,"Aaron,",,,,,0,,0
+Mulligan_7-21-23_1215,7/21/2023,12:15:29 PM,"Mulligan,",,,0,"Rest,",,"Wilson,",,,"Rest.Relax,",,"Rest.Relax,",,,,"LyingBack,","0.478893,30.447118",1,"Aaron,",,,,,0,,0
+Mulligan_7-21-23_1537,7/21/2023,3:37:00 PM,"Mulligan,",8,30,16,"Rest.Relax,",,"Rodriguez,Woodrow,Julianne_2,",,,"Travel,Feed,",,"Feed,",,,,"LyingSide,","0.471405,30.441982",1,"Aaron,",Eating Warburgia then moved a bit and lay down ,,2,30,15,,0
+,8/13/2023,2:27:00 PM,"Murray,",,,0,"RecGr,","Anna_1,","Anna_1,Silver,Doudna,","RecGr,","Anna_1,","Travel,",,,,,,"LyingBack,","0.516182,30.402671",1,"Aaron,",,,,,0,,0
+Nelson_7-17-23_1214,7/17/2023,12:14:27 PM,"Nelson,",,,0,"Rest,",,,"Rest.Alert,",,"Rest.Alert,",,"Travel,",,"Nelson,",,"LyingBack,","0.482486,30.434517",1,"Aaron,Riley,",Monkeys in trees; around 12:05 stopped traveling ,,,,0,,0
+Nelson_7-21-23_1336,7/21/2023,1:36:25 PM,"Nelson,",,,0,,,,"Travel,",,,,,,,,,"0.474009,30.446194",0,"Aaron,",Mid travel not sure if I got enough seconds ,,,,0,,0
+Ntwiga_7-12-23_1204,7/12/2023,12:04:30 PM,"Ntwiga_0,",7,18,23.3333,"Feed,",,,,,"Travel,",,,,,,"Sit,","0.512013,30.400829",0,"Aaron,",Just walked and started feeding ; climbed up Mucuso within last 1 min up 17 m ,,11,440,40,,0
+Ntwiga_7-12-23_1208,7/12/2023,12:08:20 PM,"Ntwiga_0,",37,120,18.5,,,,"Feed,",,"Feed,",,"Travel,",,,,"Sit,","0.512079,30.400794",1,"Aaron,Riley,",,,,,0,,0
+Nyumbani_7-20-23_1222,7/20/2023,12:26:16 PM,Nyumbani,,,0,,,,Rest,Wes,,,,,,,"LyingBack,","0.462303,30.408468",1,"Riley,",,,,,0,,0
+Nyumbani_7-20-23_1231,7/20/2023,12:33:00 PM,Nyumbani,,,0,Rest,,,Rest,"Wes,Justine,Buckner",Rest,,Rest,,,,"LyingBack,","0.453903,30.397634",1,"Riley,",,,,,0,,0
+Nyumbani_7-20-23_1213,7/23/2023,12:14:13 PM,Nyumbani,,,0,Rest,,,Rest,,Rest,,Travel,,,,"LyingSide,","0.503181,30.418818",1,"Riley,",,,,,0,,0
+Nyumbani_S1750023,8/12/2023,12:14:51 PM,"Nyumbani_0,",,,0,"Rest,",,,"Travel,",,,,,,,,"Quadrupedal,","0.483372,30.412406",1,"Riley,Aaron,",,,1,20,20,,0
+,8/12/2023,12:18:21 PM,"Nyumbani_0,",12,25,28.8,,,"Senta_0,Struhsaker,Senta_infant,Junot,","RecDisplay,","Struhsaker,","Rest,",,,,,,"Sit,","0.483443,30.412434",1,"Riley,",Struhsaker had displayed towed her and she held ground and screamed and vocal; senta in 5,,,,0,,0
+?,8/12/2023,2:00:35 PM,"Nyumbani_0,",,,0,"Rest,",,"Rollins,","Travel,",,,,,,,,"Sit,","0.485945,30.405884",1,"Aaron,",Traveled over 50 m at least and pant grunted to Rollins ,,,,0,,0
+,8/13/2023,10:12:45 AM,"Pizan_1,",,,0,"RecGr,",,,"Travel,",,,,,,,,"Quadrupedal,","0.504256,30.400959",1,"Riley,",Was in tree ,,10,20,2,15,1
+Powell_7-22-23_1112,7/22/2023,11:12:17 AM,"Powell,",,,0,"RecGr,","Gus,",,"RecGr,","Gus,","AlloGr,","Gus,","Rest,Groom,","Gus,",,,"Quadrupedal,","0.500847,30.422400",1,"Riley,",Maybe Jolie also grooming with Powell in past 15,,,,0,,0
+Powell_7-22-23_1121,7/22/2023,11:22:52 AM,"Powell,",,,0,"RecGr,","Gus,","Gus,Jolie_0,Kabacwezi,","RecGr,","Gus,","RecGr,","Gus,",,,,,"LyingBack,","0.500873,30.422464",1,"Riley,",Big breath ,,,,0,,0
+,7/18/2023,3:35:39 PM,Puccini,18,46,23.4783,Rest,,,Copulate,,Travel,,Travel ,,,,"Sit,","0.474395,30.443513",0,"Riley,",Traveled to catch up with party and then copulated before resting,,24,660,27.5,,0
+Puccini_7-21-23_1502,7/21/2023,3:02:26 PM,"Puccini,",26,,0,"Rest.Relax,",,"Shire_0,","Rest.Relax,",,"SelfGr,",,"RecGr,AlloGr,","Shire_0,","Rodriguez,Mulligan,Wilson,Evans,Julianne_2,Cedar,Woodrow,Puccini,Cannonball,Shire_0,",,"LyingSide,","0.471612,30.443264",1,"Aaron,",Others in party but scattered and spread out ,,,,0,,0
+Puccini_7-21-23_1513,7/21/2023,3:13:44 PM,"Puccini,",27,60,27,"Rest.Relax,",,"Shire_0,","Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,",,"Rodriguez,Mulligan,Wilson,Evans,Julianne_2,Cedar,Woodrow,Puccini,Cannonball,Shire_0,",,"LyingSide,","0.471661,30.443264",1,"Aaron,",,,,,0,,0
+Puccini_7-21-23_1521,7/21/2023,3:21:37 PM,"Puccini,",,,0,"Rest.Alert,",,"Shire_0,","Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,",,"Rodriguez,Mulligan,Wilson,Evans,Julianne_2,Cedar,Woodrow,Puccini,Cannonball,Shire_0,",,"LyingBack,","0.471643,30.443252",1,"Aaron,",22 breaths? Middle Wilson and mulligan pass by ,,,,0,,0
+,8/11/2023,11:25:46 AM,"Puccini,",,,0,"Rest.Alert,",,"Evans,Elton,Nelson,Shire_2,Wilson,",,,"Rest.Alert,Travel,",,"Travel,",,,,,"0.488690,30.430789",1,"Riley,Aaron,",,,,,0,,0
+,8/11/2023,11:40:03 AM,"Puccini,",9.5,30,19,"RecGr,","Shire_2,","Shire_2,Elton,Evans,Wilson,Nelson,","RecGr,",,"Rest.Relax,",,"Rest.Relax,",,,,"LyingBack,","0.488630,30.430813",1,"Riley,Aaron,",,,,,0,,0
+Puccini_C0277,8/11/2023,12:10:28 PM,"Puccini,",,,0,"Rest.Relax,",,"Elton,Evans,Wilson,Khutulun_0,Khutulun_infant,Nelson,","Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,",,,,,"0.488709,30.430858",1,"Riley,",,,,,0,,0
+Puccini_C0285,8/11/2023,2:19:08 PM,"Puccini,",,,0,"Rest,",,,"Rest,",,,,,,,,"LyingBack,","0.488519,30.430995",1,"Riley,",,,,,0,,0
+,7/20/2023,12:28:00 PM,RichBergl,,,0,,,,Rest,,Rest,,,,,,"LyingBack,","0.492733,30.411864",1,"Riley,",,,,,0,,0
+,7/20/2023,12:39:36 PM,RichBergl,,,0,Rest,,,Rest,,Rest,,Rest,,,,"LyingBack,","0.461111,30.392708",1,"Riley,",Sat up quickly when yo-yo approached hutcherson for grooming. Nyumbani ran 6 meters in opposite direction of hutch too. Rich laid back down without moving positions,,,,0,,0
+RichBergl_7-23-23_1139,7/23/2023,11:41:49 AM,RichBergl,,,0,Rest,,,Rest,Wes Bach,Travel,,Travel,,,,"LyingBack,","0.500510,30.418392",1,"Riley,",,,,,0,,0
+RichBergl_7-23-23_1206,7/23/2023,12:08:02 PM,RichBergl,,,0,Leaf groom,Rollins,,Rest,,Rest,,Travel,,,,"LyingBack,","0.503085,30.418867",1,"Riley,",Leaf groom; on patrol north ,,,,0,,0
+RichBergl C0300,8/12/2023,4:12:25 PM,RichBergl,,,0,Rest,Louis,Sabin_infant,Embrace ,Sabin_infant,Rest,,Rest,,,,"LyingBack,","0.488338,30.400753",1,"Riley,","Moved towards Sabin Damien fricka, embraced Sabin inf, then rested ",,20,15,0.8,,0
+RichBergl_7-14-23_1255,7/14/2023,12:56:08 PM,"RichBergl,",24,73,19.7260274,"Rest.Relax,","YoYo,",,"AlloGr,","YoYo,","AlloGr,","YoYo,","AlloGr,","YoYo,","YoYo,RichBergl,","YoYo,RichBergl,",,"0.487239,30.406700",1,"Aaron,Riley,",,,,,0,,0
+RichBergl_7-14-23_1301,7/14/2023,1:01:35 PM,"RichBergl,",39,120,19.5,"Rest.Relax,","YoYo,",,"Rest.Relax,","YoYo,","Rest.Relax,AlloGr,","YoYo,","AlloGr,","YoYo,","YoYo,RichBergl,","YoYo,RichBergl,","LyingBack,","0.487286,30.406685",1,"Aaron,Riley,",Stopped grooming 5 min ago ,,,,0,,0
+RichBergl_7-14-23_1307,7/14/2023,1:05:09 PM,"RichBergl,",20,60,20,"Rest.Relax,","Yoyo,","YoYo,YoYo,","Rest.Relax,",,"Rest.Relax,",,"AlloGr,","YoYo,","YoYo,RichBergl,","YoYo,RichBergl,","LyingBack,","0.487207,30.406778",0,"Aaron,",,,,,0,,0
+RichBergl_7-15-23_0908,7/15/2023,9:08:52 AM,"RichBergl,",7,22,19.09090909,"SelfScratch,",,"Buckner,Holland,","AlloGr,","Buckner,","Rest.Relax,AlloGr,","Buckner,","Feed,",,,,"LyingBack,","0.488353,30.411454",1,"Aaron,Riley,",,,0.1,5,50,,0
+RichBergl_7-15-23_1007,7/15/2023,10:08:12 AM,"RichBergl,",5,14,21.42857143,"Rest.Relax,","Garrison,","Garrison,","Rest.Relax,SelfScratch,","Garrison,","Rest.Relax,",,"Travel,",,"Buckner,Garrison,Holland,RichBergl,Wayne,","Buckner,Garrison,Holland,RichBergl,",,"0.490326,30.411196",1,"Aaron,Riley,",Garrison in 2 ; not great footage ,,,,0,,0
+,8/12/2023,4:08:08 PM,"RichBergl,",,,0,"Rest.Relax,",,,"Rest,",,,,,,,,"LyingBack,","0.488436,30.400777",1,"Aaron,",,,,,0,,0
+,8/12/2023,4:21:47 PM,"RichBergl,",,,0,"Play.Touch,","Louis,","Louis,Sabin_0,Sabin_infant,Damien,","Rest.Relax,",,"Rest,",,"Rest,RecGr,","Sabin_0,Louis,",,,"LyingBack,","0.488275,30.400856",1,"Riley,",Erection ,,,,0,,0
+Rodriguez_7-21-23_1541,7/21/2023,3:41:36 PM,"Rodriguez,",,,0,"Rest.Relax,",,"Mulligan,Woodrow,Julianne_2,","Rest.Relax,",,"Rest,Travel,",,"Feed,",,,,"LyingSide,","0.471355,30.441995",1,"Aaron,",Not shire ! Correct the video ,,,,0,,0
+,7/23/2023,9:00:01 AM,Rollins,,,0,Rest,YoYo,,Rest,YoYo,Rest,YoYo,AlloGroom ,YoYo,,,"LyingSide,","0.446413,30.397822",1,"Riley,",Call to south at beginning of video made him raise head alert; yo-yo also in video in foreground ,,,,0,,0
+,7/23/2023,9:08:18 AM,Rollins,,,0,Rest,YoYo,,Rest,YoYo,Rest,YoYo,Rest,YoYo,,,"LyingSide,","0.438443,30.391430",1,"Riley,",Yo-yo in foreground,,,,0,,0
+,7/23/2023,9:19:26 AM,Rollins,,,0,Rest,YoYo,,Rest,YoYo,Rest ,YoYo,Rest,YoYo,,,"LyingSide,","0.433494,30.401588",1,"Riley,",Yo-yo in same video in foreground ,,,,0,,0
+,7/23/2023,10:43:13 AM,Rollins,,,0,Rest ,,,Rest,,Rest ,,Rest,,,,"LyingBack,","0.495719,30.418368",1,"Riley,",,,,,0,,0
+,7/23/2023,12:04:43 PM,Rollins,,,0,Rest,,,Rest,,Travel,,Travel,,,,"LyingBack,","0.503122,30.418992",1,Blessing,On patrol north ,,,,0,,0
+,8/12/2023,2:27:06 PM,Rollins,,,0,Rest,Damien Yo-yo Hutcherson ,,Rest ,Damien,Rest,Damien,Feed,,,,"LyingBack,","0.485839,30.405348",1,"Riley,",,,,,0,,0
+Rollins_7-23-23_1409,7/23/2023,2:10:55 PM,"Rollins,",,,0,"Rest.Relax,",,,"Rest,",,"Rest,",,"Rest,",,,,,"0.506527,30.421694",1,"Aaron,",resting mid peri patrol ,,,,0,,0
+,8/12/2023,12:36:37 PM,"Rollins,",,,0,"AlloGr,","Anna_1,","Anna_1,Doudna,","AlloGr,","Anna_1,","AlloGr,RecGr,MutlGr,","Anna_1,","Rest,",,,,"Sit,","0.483874,30.412780",1,"Riley,",,,,,0,,0
+,8/12/2023,2:03:44 PM,"Rollins,",,,0,"Rest,Feed,",,,"Rest,",,,,"Travel,",,,,"LyingBack,","0.486012,30.405956",1,"Aaron,",Warburgia ,,,,0,,0
+,8/12/2023,2:34:29 PM,"Rollins,",,,0,"Rest.Relax,",,"Damien,Hutcherson,YoYo,","Rest,",,"Rest.Relax,",,"Feed,Travel,",,,,"LyingBack,","0.485888,30.405261",1,"Aaron,",,,,,0,,0
+,8/13/2023,12:06:15 PM,"Rollins,",10,30,20,"Rest.Relax,",,"Anna_1,Damien,","Rest,",,"Rest,",,"Travel,SwayBranch,AlloGr,","Anna_1,",,,"LyingBack,","0.515974,30.404695",1,"Aaron,",A couple chimps in proximity out of view,,,,0,,0
+Rollins S1760022,8/13/2023,12:20:26 PM,"Rollins,",,,0,"RecGr,","Damien,","Damien,Anna_1,","RecGr,","Damien,","Rest,","Anna_1,","Rest,",,,,"LyingSide,","0.515973,30.404717",1,"Aaron,",,,,,0,,0
+Rollins C0309,8/13/2023,2:53:53 PM,"Rollins,",,,0,"Rest,",,,"Rest,",,"Travel,",,"Travel,",,,,"LyingBack,","0.514266,30.401734",1,"Riley,",Anna Doudna Damien in view others scattered ,,,,0,,0
+,8/13/2023,3:05:42 PM,"Rollins,",9,30,18,"Rest,",,"Damien,","Rest,",,"Travel,",,,,,,"LyingBack,","0.514281,30.401676",1,"Riley,",Damien in 1 m ,,,,0,,0
+,8/13/2023,3:08:28 PM,"Rollins,",,,0,"RecGr,","Damien,","Damien,","Rest,",,"Rest,",,,,,,"Quadrupedal,","0.514162,30.401716",1,"Riley,",,,,,0,,0
+,7/19/2023,11:49:48 AM,Shire,25,60,25,Rest,,,Rest,"Puccini, Bosko",Rest,"Puccini, Bosko",Feed,,,,"LyingSide,","0.430875,30.406726",0,"Riley,",Traveled 20m 10 minutes ago before lying down,,,,0,,0
+,8/11/2023,9:30:26 AM,Shire,,,0,Rest,Puccini,,RecGroom ,Puccini,AlloGroom ,Puccini,RecGroom ,Puccini,,,,"0.488676,30.431027",1,"Riley,",,,,,0,,0
+Shire_7-21-23_1507,7/21/2023,3:07:25 PM,"Shire_0,",20.5,60,20.5,"Rest.Relax,",,"Puccini,","Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,",,"Rodriguez,Mulligan,Wilson,Evans,Julianne_2,Cedar,Woodrow,Puccini,Cannonball,Shire_0,",,"LyingSide,","0.471618,30.443207",1,"Aaron,",Groom with Puccini 20 min ago ,,,,0,,0
+,8/11/2023,10:06:20 AM,"Shire_2,",,,0,"RecGr,","Chopin,","Chopin,Cedar,Wilson,Elton,Cannonball,","RecGr,","Chopin,","RecGr,","Chopin,","RecGr,Rest,",,,,"LyingSide,","0.488655,30.430852",1,"Riley,Aaron,",,,,,0,,0
+Silver_7-12-23_1148,7/12/2023,11:48:22 AM,"Silver,",10,21,28.5714,"Rest.Relax,","Hutcherson,Nyumbani_0,Ntwiga_0,Leo,Justi",,,,"Travel,",,"Travel,",,,,"LyingSide,","0.508357,30.399327",0,"Aaron,",Walked about 65 m in last 5 to 10 min ; maybe within 1m even traveling ,,,,0,,0
+,8/12/2023,12:58:05 PM,"Silver,",,,0,"Rest,",,,,,,,,,,,,"0.484014,30.411607",1,"Riley,",,,2.5,90,36,,0
+,8/13/2023,10:37:01 AM,"Silver,",,,0,"Rest.Alert,",,,"Travel,",,"Travel,",,,,,,"Sit,","0.507335,30.402509",1,"Aaron,",Monkeys; hunt ,,,,0,,0
+Wayne_7-14-23_0957,7/14/2023,9:57:52 AM,"Wayne,",35,120,17.5,"RecGr,","Williams,",,"RecGr,","Williams,","Travel,",,"Rest,","YoYo,","Bacall_0,Bacall_infant,Caceres,Dorothy,Flanagan,Garrison,Holland,RichBergl,Rusalka_0,Rusalka_infant,Sally,Wayne,Williams,YoYo,",,"Quadrupedal,","0.487280,30.400458",1,"Aaron,Riley,",,,3,29,9.7,,0
+,8/12/2023,4:40:00 PM,"Wayne,",,,0,"RecGr,","Sabin_0,",,"Rest,",,,,,,,,"LyingBack,","0.488601,30.400840",1,"Riley,",Might have just come down from tree but didnít see ,,,,0,,0
+,7/23/2023,3:35:32 PM,Wes,,,0,Rest,,,Rest,,Rest,,Rest,,,,"LyingBack,","0.500816,30.421777",1,"Riley,",20 min after Ige with centealers. 15 min ago was vigilant and moved 20 m south ,,,,0,,0
+Wes_7-20-23_1246,7/20/2023,12:48:11 PM,"Wes,",,,0,"RecGr,","Camilla,","Hutcherson,YoYo,Baez_2,Buckner,Camilla,RichBergl,Bach,",,,"AlloGr,Rest,","Buckner,",,,,,,"0.492627,30.411893",1,"Riley,",,,,,0,,0
+Wes_7-23-23_1558,7/23/2023,4:00:52 PM,"Wes,",10,30,20,"RecGr,","Buckner,","Buckner,Garrison,Larson,","RecGr,","Buckner,","Rest.Relax,RecGr,","Buckner,","Rest.Relax,",,,,"LyingBack,","0.500696,30.421853",1,"Riley,Aaron,",,,,,0,,0
+,8/12/2023,12:57:49 PM,"Wes,",,,0,,,,,,,,,,,,,"0.484050,30.411562",0,"Riley,Aaron,",,,,,0,,0
+,8/13/2023,10:19:34 AM,"Wes,",,,0,"Rest.Alert,",,,"Rest.Alert,",,"Travel,PiloErection,",,,,,,"Sit,","0.500991,30.342646",1,"Riley,",,,3,245,81.7,10,1
+Wilson_7-21-23_1120,7/21/2023,11:20:55 AM,"Wilson,",,,0,"Rest.Relax,",,"Mulligan,Dylan,","Rest.Relax,",,"Travel,",,"Rest,Feed,",,,,"LyingBack,","0.478746,30.447144",1,"Aaron,",,,,,0,15,1
+Wilson_7-21-23_1143,7/21/2023,11:43:00 AM,"Wilson,",10,30,20,,,"Evans,Mulligan,","Rest.Relax,",,"RecGr,Rest.Relax,","Evans,","RecGr,AlloGr,","Evans,",,,"LyingBack,","0.478874,30.447069",1,"Aaron,",Evans stopped grooming 5 min ago ,,,,0,,0
+Wilson_7-21-23_1219,7/21/2023,12:19:45 PM,"Wilson,",8.5,30,17,"Rest.Alert,",,,"Rest.Relax,",,"Rest.Relax,",,"Rest,",,,,,"0.478801,30.447058",1,"Aaron,",,,,,0,,0
+Wilson_7-22-23_0832,7/22/2023,8:32:57 AM,"Wilson,",,,0,"RecGr,","Puccini,",,"Display,",,"Travel,",,,,,,"Quadrupedal,","0.481843,30.429987",1,"Aaron,",,,,,0,,0
+Wilson_C0242,8/10/2023,9:11:00 AM,"Wilson,",,,0,"Rest.Relax,",,,"Rest.Relax,",,"Feed,",,"Feed,",,,,"LyingBack,","0.474226,30.430167",1,"Riley,Aaron,",Elton in 17 m ,,20,1,0.1,,0
+Wilson_C0243,8/10/2023,9:17:00 AM,"Wilson,",,,0,"Rest.Alert,",,,"Rest.Relax,",,"Rest.Relax,",,"Feed,",,,,"LyingBack,","0.474309,30.430082",1,"Riley,Aaron,",Elton in 17; baboons approach within 30-20 m and then vocal ,,,,0,,0
+Wilson_C0244,8/10/2023,9:30:00 AM,"Wilson,",,,0,"Rest,",,,"Rest,",,"Rest,",,"Rest,",,,,,"0.474394,30.430140",1,"Riley,Aaron,",Startled by baboons briefly; Bosko passed at ,,,,0,,0
+Wilson_C0254,8/11/2023,9:11:18 AM,"Wilson,",,,0,"RecGr,","Chopin,","Chopin,Cannonball,","RecGr,","Chopin,","RecGr,","Chopin,","Travel,Mount,",,,,"LyingBack,","0.488677,30.430848",1,"Riley,",,,,,0,,0
+Wilson_C0267,8/11/2023,10:15:09 AM,"Wilson,",,,0,"RecGr,","Elton,",,"AlloGr,","Cedar,","AlloGr,RecGr,","Elton,Cedar,","AlloGr,","Cedar,",,,"Quadrupedal,","0.488653,30.430787",1,"Riley,Aaron,",,,,,0,,0
+Wilson_S1730030,8/11/2023,10:28:50 AM,"Wilson,",,,0,"RecGr,","Bosko,","Bosko,","PiloErection,","Bosko,","Rest,AlloGr,","Cedar,","Rest,AlloGr,RecGr,","Cedar,Elton,",,,"Quadrupedal,","0.488776,30.430793",1,"Riley,Aaron,",,,,,0,,0
+,8/11/2023,12:17:00 PM,"Wilson,",,,0,"RecGr,","Evans,","Evans,Elton,Puccini,",,,"RecGr,","Evans,","Groom,","Evans,Khutulun_0,",,,"LyingSide,","0.488756,30.430846",1,"Riley,",,,,,0,,0
+,8/11/2023,12:43:04 PM,"Wilson,",,,0,"Rest.Relax,",,"Evans,Elton,Khutulun_0,Khutulun_infant,Puccini,","Rest.Relax,",,"Rest.Relax,",,"Groom,","Evans,",,,"LyingBack,","0.488786,30.430791",1,"Riley,Aaron,",,,,,0,,0
+Wilson_C0284,8/11/2023,2:04:42 PM,"Wilson,",,,0,"RecGr,","Gus,",,"RecGr,","Gus,","RecGr,Rest,","Gus,","Travel,",,,,,"0.488567,30.430731",1,"Riley,",Arrived around 1:45 reunion ,,,,0,,0
+YoYo_7-20-23_1218,7/20/2023,12:23:46 PM,YoYo,,,0,RecGroom,Justine,,RecGroom,Justine,Rest,,Rest,,,,"LyingSide,","0.492765,30.411872",1,"Riley,",,,,,0,,0
+YoYo_7-20-23_0846,7/23/2023,8:47:54 AM,YoYo,,,0,RecGroom,Rollins,,RecGroom,Rollins,Travel,,Feed,,,,"LyingBack,","0.489198,30.410492",1,"Riley,",,,7,100,14.3,,0
+,7/23/2023,9:01:00 AM,YoYo,,,0,Rest,Rollins,,Rest,Rollins,Rest,Rollins,RecGroom ,Rollins,,,"LyingSide,","0.488801,30.409604",0,"Riley,",Call to south at beginning of video made him raise head; Rollins in background of video ,,,,0,,0
+,7/23/2023,9:08:50 AM,YoYo,,,0,Rest,Rollins,,Rest,Rollins,Rest,Rollins,Rest,Rollins,,,"LyingSide,","0.434055,30.403144",1,"Riley,",,,,,0,,0
+,7/23/2023,9:20:09 AM,YoYo,,,0,Rest,Rollins,,Rest,Rollins,Rest,Rollins,Rest,Rollins,,,"LyingBack,","0.455319,30.393876",1,"Riley,",Self scratched 1 minute before video began; Rollins in background of same video ,,,,0,,0
+YoYo_7-11-23_1310,7/11/2023,1:10:00 PM,"YoYo,",30,120,15,"Rest.Closed,",,,,,"Rest.Relax,",,"Rest.Relax,",,,,"LyingSide,","0.491937,30.399603",1,"Riley,",12:50 joined spread out party; on the edge of it; earlier traveling and foraging with Nyumbanj ,,,,0,,0
+YoYo_7-11-23_1320,7/11/2023,1:20:00 PM,"YoYo,",32,120,16,"Rest.Closed,",,,"Rest.Closed,Rest.Relax,",,"Rest.Closed,Rest.Relax,",,"Rest.Closed,Rest.Relaxed,",,,,"LyingSide,","0.491938,30.399727",1,"Riley,",,,,,0,,0
+YoYo_7-11-23_1323,7/11/2023,1:23:01 PM,"YoYo,",9,30,18,"Rest.Closed,",,,,,"Rest.Relax,",,"Rest.Relax,",,,,"LyingSide,","0.491786,30.399750",0,"Aaron,",,,,,0,,0
+YoYo_7-11-23_1327,7/11/2023,1:27:48 PM,"YoYo,",29.5,120,14.75,"Rest.Relax,",,,,,"Rest.Closed,Rest.Relax,",,"Rest,",,,,"LyingSide,","0.491951,30.399660",1,"Aaron,Riley,",Need party from David and izzi ,,,,0,,0
+YoYo_7-11-23_1331,7/11/2023,1:31:01 PM,"YoYo,",4,15,16,,,,,,,,"Rest,",,,,"LyingSide,","0.491864,30.399754",0,"Aaron,Riley,",,,,,0,,0
+YoYo_7-14-23_1103,7/14/2023,11:03:31 AM,"YoYo,",,,0,,,,,,,,,,,,,"0.486777,30.403933",1,"Aaron,Riley,",,,,,0,,0
+YoYo_7-14-23_1200,7/14/2023,12:02:18 PM,"YoYo,",17,52,19.61538462,"RecGr,","RichBergl,",,"RecGr,","RichBergl,","RecGr,","RichBergl,","Feed,","RichBergl,",,,"LyingBack,","0.487741,30.404914",1,"Aaron,Riley,",Unsure where the rest of the party went ,,,,0,,0
+YoYo_7-14-23_1208,7/14/2023,12:09:38 PM,"YoYo,",6,20,18,"RecGr,","RichBergl,",,"RecGr,","RichBergl,","Travel,","RichBergl,","RecGr,","RichBergl,","RichBergl,YoYo,",,,"0.487864,30.405236",1,"Aaron,Riley,",,,0.75,25,33.3,,0
+YoYo_7-14-23_1242,7/14/2023,12:42:36 PM,"YoYo,",50,180,16.67,"RecGr,","RichBergl,",,"Travel,",,"Travel,Feed,",,"Feed,",,"RichBergl,YoYo,","YoYo,",,"0.487294,30.406754",1,"Aaron,Riley,",,,,,0,,0
+YoYo_7-14-23_1250,7/14/2023,12:50:14 PM,"YoYo,",29,105,16.57142857,"RecGr,","RichBergl,",,"RecGr,","RichBergl,","RecGr,","RichBergl,","Travel,",,"RichBergl,YoYo,","RichBergl,","LyingBack,","0.487287,30.406713",1,"Aaron,Riley,",,,,,0,,0
+YoYo_7-14-23_1253,7/14/2023,12:53:37 PM,"YoYo,",17,60,17,"RecGr,","RichBergl,",,"Rest.Relax,",,"RecGr,","YoYo,",,,,,"LyingBack,","0.487277,30.406706",0,"Aaron,Riley,",,,,,0,,0
+YoYo_7-14-23_1257,7/14/2023,12:57:53 PM,"YoYo,",27,105,15.42857143,"Rest.Relax,","RichBergl,",,"Rest.Relax,",,"RecGr,","RichBergl,","RecGr,","RichBergl,","YoYo,RichBergl,","YoYo,RichBergl,",,"0.487300,30.406709",1,"Aaron,Riley,",,,,,0,,0
+YoYo_7-14-23_1300,7/14/2023,1:00:41 PM,"YoYo,",15,60,15,"Rest.Relax,","RichBergl,",,"Rest.Relax,","RichBergl,","RecGr,","RichBergl,","RecGr,","RichBergl,",,,"LyingBack,","0.487239,30.406789",0,"Aaron,",,,,,0,,0
+YoYo_7-14-23_1308,7/14/2023,1:08:21 PM,"YoYo,",8.5,30,17,"RecGr,","RichBergl,",,"Rest.Relax,",,"Rest.Relax,",,"RecGr,","YoYo,",,,"LyingBack,","0.487264,30.406737",1,"Aaron,Riley,",,,,,0,,0
+YoYo_7-15-23_1425,7/15/2023,2:26:30 PM,"YoYo,",6,15,24,"Feed,","RichBergl,",,"Travel,",,"Travel,",,,,"Buckner,Garrison,Holland,Lucrezia_2,RichBergl,YoYo,",,"Sit,","0.491290,30.411356",1,"Aaron,Riley,",Poor quality ,,5,90,18,,0
+YoYo_7-20-23_1333,7/20/2023,1:33:32 PM,"YoYo,",,,0,"RecGr,","Hutcherson,",,"RecGr,",,"Travel,",,"Travel,",,,,,"0.493153,30.412614",1,"Aaron,",,,,,0,,0
+YoYo_7-20-23_1338,7/20/2023,1:38:37 PM,"YoYo,",10,30,20,"RecGr,","Hutcherson,",,,,,,,,,,,"0.493136,30.412677",1,"Aaron,",,,,,0,,0
+YoYo_7-20-23_1342,7/20/2023,1:42:22 PM,"YoYo,",20,60,20,"Rest.Relax,",,,,,"RecGr,","Hutcherson,","RecGr,Travel,",,,,"LyingBack,","0.493134,30.412610",1,"Aaron,",,,,,0,,0
+YoYo_7-20-23_1349,7/20/2023,1:49:15 PM,"YoYo,",16,60,16,"Rest.Relax,",,"Hutcherson,Justine_2,","Rest.Relax,",,"RecGr,","Hutcherson,",,,,,"LyingBack,","0.493145,30.412654",0,"Aaron,",,,,,0,,0
+YoYo_7-20-23_1401,7/20/2023,2:01:31 PM,"YoYo,",20.5,60,20.5,"Rest.Relax,",,"Justine_2,Hutcherson,","Rest.Relax,",,"Rest.Relax,",,"Rest.Relax,",,,,"LyingBack,","0.493152,30.412635",1,"Riley,",,,,,0,,0
+YoYo_7-20-23_1529,7/20/2023,3:29:26 PM,"YoYo,",,,0,"Rest.Alert,",,,"Copulate,","YoYo,","Travel,",,"Travel,",,,,"Sit,","0.495255,30.411033",1,"Aaron,",,,3,200,66.7,,0
+YoYo_7-23-23_1403,7/23/2023,2:05:58 PM,"YoYo,",,,0,"RecGr,","Hutcherson,",,"RecGr,","Hutcherson,","RecGr,","Bach,",,,,,"LyingBack,","0.506519,30.421688",1,"Aaron,",,,,,0,,0
+YoYo_7-23-23_1411,7/23/2023,2:12:18 PM,"YoYo,",,,0,"Rest.Relax,",,"Hutcherson,Williams,Larson,Rollins,Bach,Buckner,","Rest.Relax,",,"RecGr,","Hutcherson,","RecGr,","Hutcherson,Bach,",,,"LyingSide,","0.506476,30.421696",1,"Riley,",Had traveled about 18 min ago  ,,,,0,,0
+YoYo_7-23-23_1417,7/23/2023,2:20:51 PM,"YoYo,",,,0,"RecGr,","Hutcherson,",,"RecGr,","Hutcherson,","RecGr,","Hutcherson,","RecGr,","Hutcherson,",,,,"0.506474,30.421662",1,"Riley,Aaron,",,,,,0,,0
+YoYo_S1750043,8/12/2023,2:30:09 PM,"YoYo,",,,0,"Rest.Relax,",,"Damien,Rollins,","Rest.Relax,",,"Rest,",,,,,,,"0.485781,30.405225",1,"Aaron,",,,,,0,,0
+,8/12/2023,2:40:24 PM,"YoYo,",8.5,30,17,"RecGr,","Damien,","Damien,Rollins,","RecGr,",,"Rest.Relax,",,"Rest.Relax,",,,,"LyingBack,","0.485940,30.405257",1,"Aaron,",,,,,0,,0
+Buckner_7-13-23_1436,7/13/2023,2:36:25 PM,"Buckner,",6.5,24,16.25,"RecGr,","Holland,",,"RecGr,","Holland,","AlloGr,RecGr,","Holland,","RecGr,","Holland,","Buckner,Holland,",,"LyingSide,","0.487470,30.400181",0,"Aaron,Riley,",Traveled like 20 m slowly (who was subject??? Buckner???-7/22),,13,48,3.7,,0
