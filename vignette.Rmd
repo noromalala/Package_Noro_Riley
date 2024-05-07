@@ -1,0 +1,646 @@
+---
+title: "Updated Breathing2024 code"
+author: "Riley N Derby and Noro"
+date: "2024-04-18"
+output: html_document
+---
+
+Okay, we need to make some corrections to text files first
+
+we need to figure a way to make sure all the .txt files are in the same format for the function that has been written
+
+so lets reading a file of sarahs .txt and one from noah/aaron to see if we can make sarahs match. 
+
+the problem is that sarahs are one tab to left of what noahs and aarons are
+
+```{r}
+library(tidyverse)
+
+sarah_example <- read_tsv("https://raw.githubusercontent.com/noromalala/Package_Noro_Riley/master/text_files/Bach_7-20-23_1248-Sarah.txt", col_names = F)
+
+aaron_example <- read_tsv("https://raw.githubusercontent.com/noromalala/Package_Noro_Riley/master/AAS-chimps/Bach_7-20-23_1248.txt", col_names = F)
+
+
+```
+
+so, as we can see, Aarons file has 9 columns while sarahs has 8. So lets add a column to sarahs 
+
+```{r}
+str(sarah_example)
+str(aaron_example)
+
+# add default column to sarahs file
+sarah_example$X1_new <- as.character('default')
+
+# Check the updated structure of sarah_example
+str(sarah_example)
+
+
+library(dplyr)
+
+# Move X1_new to the first column and rename all columns
+sarah_example <- sarah_example %>%
+  select(X1_new, everything()) %>%
+  rename(
+    X1 = X1_new,
+    X2 = X1,
+    X3 = X2,
+    X4 = X3,
+    X5 = X4,
+    X6 = X5,
+    X7 = X6,
+    X8 = X7,
+    X9 = X8
+  )
+
+```
+
+
+now lets create a function to read in all the txt files from sarah and correct them. We will then export the corrected files into a new folder. 
+
+ran into a slight problem in that R rounded the values when we were transforming stuff so i am going to fix that now
+need to stop r from rounding seconds when reading the files
+
+
+```{r}
+library(readr)
+library(dplyr)
+library(TsvFormater)# this is our package
+
+dir.create(file.path("input"))  # create input folder
+dir.create(file.path("output"))  # create output folder
+
+# Download the zip file containing text files
+download.file("https://raw.githubusercontent.com/noromalala/data_tsv/master/text_files.zip", "input/text_files.zip", mode = "wb")
+
+unzip("input/text_files.zip", exdir = "input")  # Unzip the downloaded file
+input_folder <- "input/text_files"  # Set input folder path
+output_folder <- "output"  # Set output folder path
+
+# Process and export text files from the input folder to the output folder
+processed_data <- format_tsv(input_folder, output_folder)
+
+```
+
+
+now that they are in correct format lets create files with data we want so we can analyze breathing rates
+
+
+```{r}
+# Function to convert HH:MM:SS to seconds
+convert_to_seconds <- function(time_str) {
+  time_str <- as.character(time_str)  # Ensure the input is treated as a character
+  parts <- unlist(strsplit(time_str, split = ":"))
+  return(as.numeric(parts[1]) * 3600 + as.numeric(parts[2]) * 60 + as.numeric(parts[3]))
+}
+# Function to process each file
+process_file <- function(file_path, observer) {
+  # Check if file is empty or doesn't exist
+  if (!file.exists(file_path) || file.info(file_path)$size == 0) {
+    warning(sprintf("File '%s' is empty or doesn't exist.", file_path))
+    return(NULL)
+  }
+  
+  # Read the data
+  data <- read.table(file_path, header = FALSE, sep = "\t", fill = TRUE)
+  
+  # Check if data has been read correctly
+  if (nrow(data) == 0) {
+    warning(sprintf("No data in file '%s'.", file_path))
+    return(NULL)
+  }
+  
+  # Convert time columns to seconds
+  data$V3_sec <- sapply(data$V3, convert_to_seconds, USE.NAMES = FALSE)
+  data$V5_sec <- sapply(data$V5, convert_to_seconds, USE.NAMES = FALSE)
+  data$V7_sec <- sapply(data$V7, convert_to_seconds, USE.NAMES = FALSE)
+
+  # Calculate metrics
+  total_duration_sec <- max(data$V5_sec, na.rm = TRUE) - min(data$V3_sec, na.rm = TRUE)
+  breaths_per_minute <- nrow(data) / (total_duration_sec / 60)
+  mean_breath_duration <- mean(data$V7_sec, na.rm = TRUE)
+  RR_intervals <- diff(data$V3_sec)
+  RRI_variability <- sd(RR_intervals, na.rm = TRUE)
+
+  # Extract the file name
+  file_name <- gsub("\\.txt$", "", basename(file_path))
+
+  # Return the results as a data frame
+  return(data.frame(
+    Observer = observer,
+    File_Name = file_name,
+    Total_Duration_seconds = total_duration_sec,
+    Breaths_Per_Minute = breaths_per_minute,
+    Mean_Breath_Duration = mean_breath_duration,
+    RRI_Variability = RRI_variability
+  ))
+}
+#unzip folders
+
+# Download the zip file containing text files
+download.file("https://github.com/noromalala/Package_Noro_Riley/blob/master/AAS-chimps.zip", "AAS-chimps.zip", mode = "wb")
+
+unzip("AAS-chimps.zip", exdir = "AAS-chimps")
+
+download.file("https://github.com/noromalala/Package_Noro_Riley/blob/master/output.zip",
+             "output.zip", mode = "wb" )
+
+unzip("output.zip", exdir = "output")
+
+# Define the directories
+directories <- list(
+  AAS = "AAS-chimps",
+  STX = "output"
+)
+
+# empty data frame for the results
+all_results <- data.frame()
+
+# Loop through each directory
+for (observer in names(directories)) {
+  directory <- directories[[observer]]
+  files <- list.files(directory, pattern = "\\.txt$", full.names = TRUE)
+
+  # Loop through the files and process each one
+  for (file in files) {
+    file_results <- process_file(file, observer)
+    all_results <- rbind(all_results, file_results)
+  }
+}
+
+# Extract the name from the File_Name 
+all_results$Name <- sub("^([^_ ]+)[_ ].*$", "\\1", all_results$File_Name)
+
+breathing_data_chimps1 <- all_results
+```
+
+compare two coders
+
+```{r}
+library(tidyverse)
+library(dplyr)
+# First, let's split the data by observer
+data_AAS <- breathing_data_chimps1 %>% filter(Observer == "AAS")
+data_STX <- breathing_data_chimps1 %>% filter(Observer == "STX")
+
+#remove '-Sarah' from end of file names in data_stx 
+data_STX$File_Name <- gsub("-Sarah$", "", data_STX$File_Name)
+
+# Now, let's find the common filenames
+common_files <- intersect(data_AAS$File_Name, data_STX$File_Name)
+
+# Filter data to only include these common filenames
+data_AAS_common <- data_AAS %>% filter(File_Name %in% common_files)
+data_STX_common <- data_STX %>% filter(File_Name %in% common_files)
+
+# Merge the common data from both observers
+comparison_data <- merge(data_AAS_common, data_STX_common, by = "File_Name", suffixes = c("_AAS", "_STX"))
+
+# Now you have a data frame where you can compare the metrics between the two observers
+# Let's compare the Breaths_Per_Minute as an example
+comparison_data %>% 
+  select(File_Name, Breaths_Per_Minute_AAS, Breaths_Per_Minute_STX) %>%
+  mutate(Difference = Breaths_Per_Minute_AAS - Breaths_Per_Minute_STX) %>%
+  arrange(desc(Difference))
+
+# You can also calculate correlation or other statistics based on the comparison
+
+```
+```{r}
+
+# Calculate Pearson correlation ie normally distributed data
+cor.test(comparison_data$Breaths_Per_Minute_AAS, comparison_data$Breaths_Per_Minute_STX, method = "pearson")
+
+# Calculate Spearman correlation ie non-normally distributed data
+cor.test(comparison_data$Breaths_Per_Minute_AAS, comparison_data$Breaths_Per_Minute_STX, method = "spearman")
+
+```
+```{r}
+library(ggplot2)
+
+# Scatter plot with a line of perfect agreement
+ggplot(comparison_data, aes(x = Breaths_Per_Minute_AAS, y = Breaths_Per_Minute_STX)) +
+  geom_point() +
+  geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "red") +
+  xlab("Breaths Per Minute (AAS)") +
+  ylab("Breaths Per Minute (STX)") +
+  ggtitle("Scatter Plot of Inter-Observer Reliability")
+
+```
+
+
+```{r}
+library(irr)
+
+# Calculate ICC
+icc <- icc(cbind(comparison_data$Breaths_Per_Minute_AAS, comparison_data$Breaths_Per_Minute_STX), model = "twoway", type = "agreement")
+print(icc)
+
+```
+
+Now I want to load in breathing we coded in the field
+```{r}
+library(dplyr)
+
+ngogo <- read.csv("https://raw.githubusercontent.com/noromalala/Package_Noro_Riley/master/Breathing2023-AAS-chimps-editing.csv")
+
+# Filter out rows where RR is not NA
+ngogoRR <- ngogo %>% filter(!is.na(RR) & RR > 0)
+
+# Create the new 'Name' column by extracting the text before '_' or ','
+ngogoRR$Name <- sub("_.*", "", ngogoRR$IndividualID) # Remove anything after the underscore
+ngogoRR$Name <- sub(",.*", "", ngogoRR$Name)      # Remove anything after the comma
+
+
+# View the first few rows of the filtered dataframe
+head(ngogoRR)
+str(ngogoRR)
+```
+
+load demography
+```{r}
+ngogoDemog <- read.csv("https://raw.githubusercontent.com/noromalala/Package_Noro_Riley/master/demographyForNetworks_22.csv")
+ngogoDemog$DOB <- as.Date(ngogoDemog$DOB, format = "%m/%d/%Y")
+str(ngogoDemog)
+
+ngogoDemog1 <- ngogoDemog %>% select(Name = individualID, Sex, DOB = DOB, mother, father)
+
+ngogoRR <- left_join(ngogoRR, ngogoDemog1, by = "Name")
+
+ngogoRR$Date <- as.Date(ngogoRR$Date, format="%m/%d/%y")
+ngogoRR$DOB <- as.Date(ngogoRR$DOB, format="%m/%d/%y")
+
+# Calculate age in years as the difference between the dates
+ngogoRR$Age <- as.numeric(difftime(ngogoRR$Date, ngogoRR$DOB, units="weeks")) / 52.1775
+
+# Round the age to the nearest 0.5 years
+ngogoRR$Age_rounded <- round(ngogoRR$Age * 2) / 2
+```
+
+
+```{r}
+# Create a new column 'Prior1b' with simplified behavior categories
+ngogoRR$Prior1b <- sapply(ngogoRR$Prior1, function(x) {
+  if (grepl("Rest|Rest.Relax|Rest.Alert", x)) {
+    "rest"
+  } else if (grepl("RecGr|RecGroom", x)) {
+    "receive groom"
+  } else if (grepl("PantHoot|PiloErection|RecDisplay|Copulate", x)) {
+    "high arousal"
+  } else if (grepl("Climb|Travel", x)) {
+    "travel"
+  } else if (x %in% c("Feed", "", "SelfGr")) {
+    "other"
+  } else {
+    "other" # Default category if none of the above conditions are met
+  }
+})
+
+# Now, let's create the boxplot with this new categorization
+
+library(ggplot2)
+
+# Filter out rows where 'RR' is NA
+filtered_ngogoRR <- ngogoRR %>% filter(!is.na(RR))
+
+# color palette for the 'Prior1b' behaviors
+behavior_colors <- scale_color_manual(values = c(
+  "rest" = "blue",
+  "receive groom" = "green",
+  "high arousal" = "yellow",
+  "travel" = "red",
+  "other" = "grey"
+))
+
+# Create the boxplot
+ggplot(filtered_ngogoRR, aes(x = IndividualID, y = RR, color = Prior1b)) +
+  geom_boxplot(outlier.shape = NA, fill = "grey80") +  # Grey boxplots
+  geom_jitter(width = 0.2, size = 2, alpha = 0.6) +    # Jittered points for individual observations
+  behavior_colors +                                    # Apply custom colors for behaviors
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) + # Rotate x-axis labels for readability
+  labs(title = "Breathing Rate by Individual and Simplified Prior Behavior",
+       x = "Individual",
+       y = "Breathing Rate (RR)",
+       color = "Simplified Prior Behavior") +
+  theme_minimal()  # Minimal theme for a clean look
+
+# Note: Adjust the color palette based on the actual behaviors in your dataset
+
+```
+
+just rest with other behaviors overlaid
+```{r}
+# Filter the data for the 'rest' behavior
+rest_data <- ngogoRR[ngogoRR$Prior1b == "rest", ]
+
+# Filter the data for the other behaviors
+other_behaviors <- ngogoRR %>% 
+  filter(Prior1b %in% c("receive groom", "high arousal", "travel"))
+
+# Create the boxplot with gray boxes for 'rest' behavior
+p <- ggplot() +
+  geom_boxplot(data = rest_data, aes(x = IndividualID, y = RR), fill = "gray") +
+  geom_point(data = other_behaviors, aes(x = IndividualID, y = RR, color = Prior1b)) +
+  scale_color_manual(values = c("receive groom" = "blue", "high arousal" = "red", "travel" = "green")) +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
+  labs(title = "Breathing Rate by Individual",
+       x = "Individual",
+       y = "Breathing Rate (RR)",
+       color = "Behavior") +
+  theme_minimal() +
+  theme(legend.position = "right") # Adjust legend position
+
+# Print the plot
+print(p)
+
+```
+
+Trying to make names legible
+
+```{r}
+# Filter the data for the 'rest' behavior
+rest_data <- ngogoRR[ngogoRR$Prior1b == "rest", ]
+
+# Filter the data for the other behaviors
+other_behaviors <- ngogoRR %>%
+  filter(Prior1b %in% c("receive groom", "high arousal", "travel"))
+
+# Create the boxplot with gray boxes for 'rest' behavior
+p <- ggplot() +
+  geom_boxplot(data = rest_data, aes(x = Name, y = RR), fill = "gray") +
+  geom_point(data = other_behaviors, aes(x = Name, y = RR, color = Prior1b)) +
+  scale_color_manual(values = c("receive groom" = "blue", "high arousal" = "red", "travel" = "orange")) +
+  labs(title = "Breathing Rate by Individual",
+       x = "Individual",
+       y = "Breathing Rate (RR)",
+       color = "Behavior") +
+  theme_minimal() +
+  theme(legend.position = "right", # Adjust legend position
+        axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) # Adjust text angle
+
+# Print the plot
+print(p)
+
+```
+
+
+Now I want to sort by age
+```{r}
+library(ggplot2)
+library(dplyr)
+
+ngogoRR_sorted <- ngogoRR[order(ngogoRR$Age_rounded), ]
+
+# Create the boxplot with the reordered factor
+ggplot(ngogoRR_sorted, aes(x = reorder(Name, Age_rounded), y = RR)) +
+  geom_boxplot(fill = "gray") +
+  geom_point(aes(color = Prior1b)) +
+  scale_color_manual(values = c("receive groom" = "blue", "high arousal" = "red", "travel" = "orange")) +
+  labs(title = "Breathing Rate by Individual",
+       x = "Individual",
+       y = "Breathing Rate (RR)",
+       color = "Behavior") +
+  theme_minimal() +
+  theme(legend.position = "right", # Adjust legend position
+        axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) # Adjust text angle
+
+```
+
+
+Justine, Ntwiga and Nyumbani are recent immigrants that my demography does not have age estimate for. They end up at far right of graph, but Garrison is oldest known in study.
+
+
+another looked based on sex
+```{r}
+ggplot(ngogoRR_sorted, aes(x = reorder(Name, Age_rounded), y = RR, fill = Sex)) +
+    geom_boxplot() +
+  geom_point(aes(color = Prior1b)) +
+  scale_color_manual(values = c("receive groom" = "blue", "high arousal" = "red", "travel" = "orange")) +
+  labs(title = "Breathing Rate by Individual",
+       x = "Individual",
+       y = "Breathing Rate (RR)",
+       color = "Behavior") +
+  theme_minimal() +
+  theme(legend.position = "right", # Adjust legend position
+        axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) # Adjust text angle
+```
+
+Okay, lets do some simple statistical analyses to see if there is differences in category. Since we have low sample size on certain behaviors, I want to combine high arousal and travel breathing rates into one category. 
+
+I will determine if high arousal/travel mean breathing rate is different than resting breathing rate and receive groom breathing rate across this sample. 
+
+To do this, I want to take means of each category as test statistic. Creating 95% confidence interval using bootstrap pulling from sample and then conducting an anova. 
+
+```{r}
+#lets start by separating the dataset based on Prior1b values so we can easily calculate means 
+rest_data <- ngogoRR %>% filter(Prior1b == "rest")
+receive_groom_data <- ngogoRR %>% filter(Prior1b == "receive groom")
+travel_high_arousal_data <- ngogoRR %>% filter(Prior1b %in% c("travel", "high arousal"))
+```
+
+
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(broom)
+library(ggplot2)
+
+# Calculate mean breathing rate for each category
+mean_rest <- ngogoRR %>%
+  filter(Prior1b == "rest") %>%
+  summarize(mean_breathing_rate = mean(RR, na.rm = TRUE))
+
+mean_receive_groom <- ngogoRR %>%
+  filter(Prior1b == "receive groom") %>%
+  summarize(mean_breathing_rate = mean(RR, na.rm = TRUE))
+
+mean_travel_high_arousal <- ngogoRR %>%
+  filter(Prior1b %in% c("travel", "high arousal")) %>%
+  summarize(mean_breathing_rate = mean(RR, na.rm = TRUE))
+
+# Combine means into one dataframe
+means_df <- rbind(mean_rest, mean_receive_groom, mean_travel_high_arousal)
+
+# Add a category column
+means_df$Category <- c("Rest", "Receive Groom", "Travel/High Arousal")
+```
+
+rest bootstrap
+```{r}
+# okay now lets do bootstraps for 3 categories starting with rest
+bootstrap_ci <- function(data, variable, n_bootstraps = 1000, alpha = 0.05) {
+  boot_means <- replicate(n_bootstraps, {
+    sample_data <- sample_n(data, size = nrow(data), replace = TRUE)
+    mean_val <- mean(sample_data[[variable]], na.rm = TRUE)
+    return(mean_val)
+  })
+  
+  ci_lowerR <- quantile(boot_means, alpha / 2)
+  ci_upperR <- quantile(boot_means, 1 - alpha / 2)
+  
+  return(list(ci_lowerR = ci_lowerR, ci_upperR = ci_upperR, boot_means = boot_means))
+}
+
+# Bootstrap for the "Rest" category 
+bootstrap_results_rest <- bootstrap_ci(rest_data, "RR")
+
+```
+
+receive groom bootstrap
+```{r}
+
+bootstrap_ci <- function(data, variable, n_bootstraps = 1000, alpha = 0.05) {
+  boot_means <- replicate(n_bootstraps, {
+    sample_data <- sample_n(data, size = nrow(data), replace = TRUE)
+    mean_val <- mean(sample_data[[variable]], na.rm = TRUE)
+    return(mean_val)
+  })
+  
+  ci_lowerRG <- quantile(boot_means, alpha / 2)
+  ci_upperRG <- quantile(boot_means, 1 - alpha / 2)
+  
+  return(list(ci_lowerRG = ci_lowerRG, ci_upperRG = ci_upperRG, boot_means = boot_means))
+}
+
+# Bootstrap for the "receive groom" category 
+bootstrap_results_RG <- bootstrap_ci(receive_groom_data, "RR")
+
+```
+
+high arousal/travel bootstrap
+```{r}
+bootstrap_ci <- function(data, variable, n_bootstraps = 1000, alpha = 0.05) {
+  boot_means <- replicate(n_bootstraps, {
+    sample_data <- sample_n(data, size = nrow(data), replace = TRUE)
+    mean_val <- mean(sample_data[[variable]], na.rm = TRUE)
+    return(mean_val)
+  })
+  
+  ci_lowerTHA <- quantile(boot_means, alpha / 2)
+  ci_upperTHA <- quantile(boot_means, 1 - alpha / 2)
+  
+  return(list(ci_lowerTHA = ci_lowerTHA, ci_upperTHA = ci_upperTHA, boot_means = boot_means))
+}
+
+# Bootstrap for the "travel/high arousal" category 
+bootstrap_results_travel_HA <- bootstrap_ci(travel_high_arousal_data, "RR")
+```
+
+
+
+```{r}
+library(ggplot2)
+
+# Create a dataframe for plotting the bootstrap distributions
+bootstrap_df <- data.frame(
+  Category = c(rep("Rest", length(bootstrap_results_rest$boot_means)),
+               rep("Receive Groom", length(bootstrap_results_RG$boot_means)),
+               rep("Travel/High Arousal", length(bootstrap_results_travel_HA$boot_means))),
+  Bootstrapped_Mean = c(bootstrap_results_rest$boot_means,
+                        bootstrap_results_RG$boot_means,
+                        bootstrap_results_travel_HA$boot_means)
+)
+
+# Plot the distributions with means marked
+ggplot(bootstrap_df, aes(x = Bootstrapped_Mean, fill = Category)) +
+  geom_density(alpha = 0.5) +
+  geom_vline(aes(xintercept = mean_breathing_rate, color = Category),
+             data = means_df, linetype = "dashed", size = 1) +
+  labs(title = "Bootstrap Distributions of Mean Breathing Rate",
+       x = "Mean Breathing Rate",
+       y = "Density",
+       color = "Category",
+       fill = "Category") +
+  theme_minimal()
+
+```
+
+
+```{r}
+# Add confidence interval values to means_df
+means_df$ci_lower <- c(bootstrap_results_rest$ci_lowerR, bootstrap_results_RG$ci_lowerRG, bootstrap_results_travel_HA$ci_lowerTHA)
+means_df$ci_upper <- c(bootstrap_results_rest$ci_upperR, bootstrap_results_RG$ci_upperRG, bootstrap_results_travel_HA$ci_upperTHA)
+means_df$sd <- c(sd(rest_data$RR), sd(receive_groom_data$RR), sd(travel_high_arousal_data$RR))
+means_df$var <- c(var(rest_data$RR), var(receive_groom_data$RR), var(travel_high_arousal_data$RR))
+
+means_df
+```
+
+okay, now lets do an ANOVA and kruskal wallace with raw data
+```{r}
+combined_data <- rbind(rest_data, receive_groom_data, travel_high_arousal_data)
+combined_data <- combined_data %>%
+  mutate(Prior1b = ifelse(Prior1b %in% c("high arousal", "travel"), "higharousal_travel", Prior1b))
+
+# Perform ANOVA test
+anova_result <- aov(RR ~ Prior1b, data = combined_data)
+
+summary(anova_result)
+
+tukey_result <- TukeyHSD(anova_result)
+tukey_result
+
+# Perform Kruskal-Wallis test
+kruskal_test_result <- kruskal.test(RR ~ Prior1b, data = combined_data)
+kruskal_test_result
+```
+
+lets do anova with bootstrapped data
+```{r}
+# Perform ANOVA using bootstrapped means
+anova_result_boot <- aov(Bootstrapped_Mean ~ Category, data = bootstrap_df)
+
+# Perform Tukey HSD post-hoc test using bootstrapped means
+tukey_result_boot <- TukeyHSD(anova_result_boot)
+tukey_result_boot
+```
+It looks like the means of all 3 categories are statistically different from one another. 
+
+
+lets do a t test now
+```{r}
+#recall separated datasets
+#rest_data 
+#receive_groom_data 
+#travel_high_arousal_data 
+
+
+# Perform two-sample t-test
+t_test_HRvR <- t.test(travel_high_arousal_data$RR, rest_data$RR)
+t_test_HRvR
+
+t_test_HRvRG <- t.test(travel_high_arousal_data$RR, receive_groom_data$RR)
+t_test_HRvRG
+
+t_test_RvRG <- t.test(rest_data$RR, receive_groom_data$RR)
+t_test_RvRG
+
+
+## now lets do with bootstrap distributions
+
+#recall bootstrapped file
+#bootstrap_df
+
+# t-tests
+# Filter the bootstrap_df for each category
+rest_bootstrap <- bootstrap_df[bootstrap_df$Category == "Rest", ]
+receive_groom_bootstrap <- bootstrap_df[bootstrap_df$Category == "Receive Groom", ]
+travel_high_arousal_bootstrap <- bootstrap_df[bootstrap_df$Category == "Travel/High Arousal", ]
+
+# Perform t-tests for each category
+t_test_boot_RvRG <- t.test(rest_bootstrap$Bootstrapped_Mean, receive_groom_bootstrap$Bootstrapped_Mean)
+t_test_boot_RvRG
+
+t_test_boot_HRvR <- t.test(travel_high_arousal_bootstrap$Bootstrapped_Mean, rest_bootstrap$Bootstrapped_Mean)
+t_test_boot_HRvR
+
+t_test_boot_HRvRG <- t.test(travel_high_arousal_bootstrap$Bootstrapped_Mean, receive_groom_bootstrap$Bootstrapped_Mean)
+t_test_boot_HRvRG
+
+```
+
+All around, it looks like High arousal/travel breathing rate is higher than Resting or Receiving grooming. And it also looks like Resting rate is higher than when individuals receive grooming. This makes sense as the individuals are not sleeping so their resting rate during the day is likely higher than that when they sleep. Additionally, most of our grooming bouts were between likely bonded partners and calming effects of receiving grooming have been documented throughout primate literature. 
+
+
